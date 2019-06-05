@@ -79,11 +79,14 @@ for i in range(1000):
 file = open("testlog.txt", "w+")
 test_position = 0
 for test in tests:
-    if (test.expected == calculate(test.usb_size, test.memes)):
+    TestedCodeAnswer = calculate(test.usb_size, test.memes)
+    if (test.expected == TestedCodeAnswer):
         file.write(f"Test {test_position} passed\n")
     else:
         file.write(f"Test {test_position} didn't pass   ===   FLAG   ===\n")
         file.write(f"{[test.usb_size, test.rawMemes]}\n")
+        file.write(f"Expected : {test.expected} \n")
+        file.write(f"Got : {TestedCodeAnswer} \n")
     
     test_position+=1
 file.close()
