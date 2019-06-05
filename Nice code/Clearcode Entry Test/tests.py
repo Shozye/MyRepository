@@ -40,7 +40,7 @@ class Test:
 class TestGenerator:
     def __init__(self, amountMemesCAP):
         self.amountMemesCap = amountMemesCAP
-        self.memeNames = [ #33 names
+        self.memeNames = [ #35 names
             "sad_pepe.png", "sad_frog.jpg", "metamorphosis.png",
             "footballMessi.png", "AmericaOil.jpg", "Mao.png",
             "Hitler.jpg", "Stalin.png", "JanKazimierz.png",
@@ -51,7 +51,8 @@ class TestGenerator:
             "FranceWar.png", "Chernobyl.jpg", "RickMorty.png",
             "Dog.png", "Cat.jpg", "hanuszka.png", "Spongebob.png",
             "Urban.png", "WaznaWiadomosc.avi", "Tesla.png",
-            "Mussolini.jpg", "Smolensk.png", "AndrzejDuda.png",
+            "Mussolini.jpg", "Smolensk.png", "AndrzejDuda.png"
+            "HiszpanskaInkwizycja.png", "It's Over 9000.jpeg", "Nosacz.png",
         ]
     def generate(self):
         tmp_names = []
@@ -71,7 +72,7 @@ class TestGenerator:
         return Test(usb_size, memesList)
 tests = []
 Generator = TestGenerator(10)
-for i in range(1000):
+for i in range(10):
     tests.append(Generator.generate())
 
 
@@ -79,14 +80,14 @@ for i in range(1000):
 file = open("testlog.txt", "w+")
 test_position = 0
 for test in tests:
-    TestedCodeAnswer = calculate(test.usb_size, test.memes)
-    if (test.expected == TestedCodeAnswer):
+    algorithm_answer = calculate(test.usb_size, test.rawMemes)
+    if (test.expected == algorithm_answer):
         file.write(f"Test {test_position} passed\n")
     else:
         file.write(f"Test {test_position} didn't pass   ===   FLAG   ===\n")
         file.write(f"{[test.usb_size, test.rawMemes]}\n")
         file.write(f"Expected : {test.expected} \n")
-        file.write(f"Got : {TestedCodeAnswer} \n")
+        file.write(f"Got : {algorithm_answer} \n")
     
     test_position+=1
 file.close()
