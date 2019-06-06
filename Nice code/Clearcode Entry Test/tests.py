@@ -19,6 +19,7 @@ class Subset:
 class Test:
     def __init__(self, usb_size, memes, expected = None):
         self.usb_size = usb_size*1024 # GiB => MiB
+        self.usb_size_GiB = usb_size
         self.rawMemes = memes
         self.memes = []
         for memeTuple in memes:
@@ -32,11 +33,6 @@ class Test:
                     if (subset.size < self.usb_size) and (subset.worth > best_subset.worth):
                         best_subset = subset
             self.expected = best_subset.answer
-        if self.expected == calculate(usb_size, memes):
-            self.passed = True
-        else:
-            self.passed = False
-
 class TestGenerator:
     def __init__(self, amountMemesCAP):
         self.amountMemesCap = amountMemesCAP
@@ -51,14 +47,14 @@ class TestGenerator:
             "FranceWar.png", "Chernobyl.jpg", "RickMorty.png",
             "Dog.png", "Cat.jpg", "hanuszka.png", "Spongebob.png",
             "Urban.png", "WaznaWiadomosc.avi", "Tesla.png",
-            "Mussolini.jpg", "Smolensk.png", "AndrzejDuda.png"
+            "Mussolini.jpg", "Smolensk.png", "AndrzejDuda.png",
             "HiszpanskaInkwizycja.png", "It's Over 9000.jpeg", "Nosacz.png",
         ]
     def generate(self):
         tmp_names = []
         for name in self.memeNames:
             tmp_names.append(name)
-        usb_size = random.randint(1,10)
+        usb_size = random.randint(1,15)
         amount_of_memes = random.randint(1,self.amountMemesCap)
         memesList = []
         for i in range(amount_of_memes):
@@ -66,21 +62,22 @@ class TestGenerator:
             tmp_names.remove(randName)
             memesList.append(
                 (randName,
-                 random.randint(1,2000),
+                 random.randint(1,4000),
                  random.randint(1,20))
             )
         return Test(usb_size, memesList)
 tests = []
-Generator = TestGenerator(10)
-for i in range(10):
+Generator = TestGenerator(20)
+for i in range(100):
     tests.append(Generator.generate())
+    print(f"Test Generated, amount of memes = {len(tests[-1].memes)}")
 
 
 
 file = open("testlog.txt", "w+")
 test_position = 0
 for test in tests:
-    algorithm_answer = calculate(test.usb_size, test.rawMemes)
+    algorithm_answer = calculate(test.usb_size_GiB, test.rawMemes)
     if (test.expected == algorithm_answer):
         file.write(f"Test {test_position} passed\n")
     else:

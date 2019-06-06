@@ -23,8 +23,15 @@ def calculate(usb_size, memes):
                     tab[pos + meme[SIZE]][NAMES].add(name)
                 tab[pos + meme[SIZE]][NAMES].add(meme[NAME])
     best_answer = tab[0]
+    pos = 0
+    best_pos = 0
     for answer in tab:
         if answer[VALUE] > best_answer[VALUE]:
             best_answer = answer
-    return (best_answer[0], best_answer[1])    
+            best_pos = pos
+        pos += 1
+
+    print(best_pos, usb_size)
+    return (best_answer[VALUE], best_answer[NAMES])    
     pass
+
