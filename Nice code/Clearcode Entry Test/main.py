@@ -40,16 +40,15 @@ def calculate(usb_size, memes):
                 tab[pos + meme[SIZE]][NAMES].add(meme[NAME])
     # Picking list with best Value
     best_answer = tab[0] 
-    pos = 0 # <- To delete
-    best_pos = 0 # <- To delete
     for answer in tab:
         if answer[VALUE] > best_answer[VALUE]:
             best_answer = answer
-            best_pos = pos # <- To delete
-        pos += 1 # <- To delete
-
-    print(best_pos, usb_size) # <- To delete
-    
-    # return Tuple(int, Set(string*))
+        # return Tuple(int, Set(string*))
     return (best_answer[VALUE], best_answer[NAMES]) 
 
+def handtests():
+    print(calculate(0, []))
+    print(calculate( 0, [("Mickey Mouse", 0, 100), ("Mickey Donald", 1, 200)] ) )
+    #What happens if worth is negative?
+    print(calculate(0, [("Very Bad Meme :(", 0, -10), ("Good Meme :)", 0, 10)]))
+#handtests()
