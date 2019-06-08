@@ -1,18 +1,34 @@
-# Clearcode Work
+# Calculate function that for given usb_size and
+# memes = List(Tuple(str , int,  int))
+#                    name, size, worth
+# returns highest possible worth of an usb stick and names of memes in format:
+# Tuple(int, Set(strings))
+#       worth,   MemeName
 
 def calculate(usb_size, memes):
+# Declaring constants to easier read algorithm
     NAME = 0
     SIZE = 1
     WORTH = 2
 
     VALUE = 0
     NAMES = 1
+
+
     
     usb_size *= 1024 #GiB -> MiB
-    tab = []
-    for i in range(usb_size+1):
-        tab.append([0, set([]) ])
 
+    
+    # Preparing list in format List(List(int, Set(string*))*)
+    # An inner list is created for every usb_size in <0, usb_size>
+    # That list will contain Best Value for this size and
+    # Set of meme names, that are needed to get this worth
+    tab = [] 
+    for i in range(usb_size+1):
+        tab.append([0, set([])])
+
+    # Calculating Value and adding Meme Names to set
+    # for every size
     for meme in memes:
         for pos in range(usb_size,-1,-1):
             if (pos + meme[SIZE] <= usb_size and (tab[pos][VALUE] != 0 or pos == 0) and
@@ -22,16 +38,18 @@ def calculate(usb_size, memes):
                 for name in tab[pos][NAMES]:
                     tab[pos + meme[SIZE]][NAMES].add(name)
                 tab[pos + meme[SIZE]][NAMES].add(meme[NAME])
-    best_answer = tab[0]
-    pos = 0
-    best_pos = 0
+    # Picking list with best Value
+    best_answer = tab[0] 
+    pos = 0 # <- To delete
+    best_pos = 0 # <- To delete
     for answer in tab:
         if answer[VALUE] > best_answer[VALUE]:
             best_answer = answer
-            best_pos = pos
-        pos += 1
+            best_pos = pos # <- To delete
+        pos += 1 # <- To delete
 
-    print(best_pos, usb_size)
-    return (best_answer[VALUE], best_answer[NAMES])    
-    pass
+    print(best_pos, usb_size) # <- To delete
+    
+    # return Tuple(int, Set(string*))
+    return (best_answer[VALUE], best_answer[NAMES]) 
 

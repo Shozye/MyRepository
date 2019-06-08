@@ -1,400 +1,500 @@
  === Test 0 Amount of memes 8 === : 
- Expected: (22, {'AsterixObelix.png', 'Nazi.png'}) 
- Got: (22, {'AsterixObelix.png', 'Nazi.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.01 
+ usb_size = 2 memes = [('NaWalbrzych.avi', 254, 4), ('DziwniCiRzymianie.png', 242, 13), ('Mussolini.jpg', 495, 7), ('Hitler.jpg', 374, 9), ('skocznia.png', 371, 6), ('PolandIntoSpace.jpg', 488, 2), ('Spongebob.png', 271, 17), ('Urban.png', 60, 6)] 
+ Expected: (58, {'skocznia.png', 'Spongebob.png', 'Urban.png', 'DziwniCiRzymianie.png', 'Hitler.jpg', 'Mussolini.jpg'}) 
+ Got: (58, {'skocznia.png', 'Spongebob.png', 'Urban.png', 'DziwniCiRzymianie.png', 'Hitler.jpg', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
  === Test 1 Amount of memes 9 === : 
- Expected: (73, {'Cat.jpg', 'DziwniCiRzymianie.png', 'WaznaWiadomosc.avi', 'NaWalbrzych.avi', 'footballMessi.png', 'Stalin.png'}) 
- Got: (73, {'Cat.jpg', 'DziwniCiRzymianie.png', 'WaznaWiadomosc.avi', 'NaWalbrzych.avi', 'footballMessi.png', 'Stalin.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.11 
- === Test 2 Amount of memes 19 === : 
- Expected: (74, {'hanuszka.png', 'Cat.jpg', 'sad_frog.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- Got: (74, {'hanuszka.png', 'Cat.jpg', 'sad_frog.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- 2**n time execution: 7.41, n**2 time execution 0.03 
- === Test 3 Amount of memes 3 === : 
- Expected: (27, {'Nosacz.png', 'Smolensk.png'}) 
- Got: (27, {'Nosacz.png', 'Smolensk.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 4 Amount of memes 16 === : 
- Expected: (99, {'Mao.png', 'DziwniCiRzymianie.png', 'Mussolini.jpg', 'Smolensk.png', 'NaWalbrzych.avi', 'footballMessi.png', 'AndrzejDuda.png', 'pride.jpg', 'LewNieSprzymierzaSieZKojotem.avi', 'Nazi.png'}) 
- Got: (99, {'Mao.png', 'DziwniCiRzymianie.png', 'Mussolini.jpg', 'Smolensk.png', 'NaWalbrzych.avi', 'AndrzejDuda.png', 'footballMessi.png', 'pride.jpg', 'LewNieSprzymierzaSieZKojotem.avi', 'Nazi.png'}) 
- 2**n time execution: 0.73, n**2 time execution 0.27 
- === Test 5 Amount of memes 8 === : 
- Expected: (59, {'FranceWar.png', 'Hitler.jpg', 'Mao.png', 'skocznia.png', 'Tesla.png', 'PoczujWSobieSileLwa.png', 'Urban.png'}) 
- Got: (59, {'FranceWar.png', 'Hitler.jpg', 'Mao.png', 'skocznia.png', 'Tesla.png', 'PoczujWSobieSileLwa.png', 'Urban.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 6 Amount of memes 7 === : 
- Expected: (65, {'WaznaWiadomosc.avi', 'Stalin.png', 'Tesla.png', 'Nosacz.png'}) 
- Got: (65, {'WaznaWiadomosc.avi', 'Stalin.png', 'Tesla.png', 'Nosacz.png'}) 
+ usb_size = 2 memes = [('HiszpanskaInkwizycja.png', 128, 10), ("It's Over 9000.jpeg", 262, 5), ('Tesla.png', 399, 14), ('hanuszka.png', 83, 14), ('metamorphosis.png', 385, 14), ('JanuszMalpa.png', 384, 13), ('WaznaWiadomosc.avi', 160, 3), ('Dog.png', 117, 4), ('LewNieSprzymierzaSieZKojotem.avi', 194, 11)] 
+ Expected: (85, {'HiszpanskaInkwizycja.png', 'Tesla.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'LewNieSprzymierzaSieZKojotem.avi', 'JanuszMalpa.png', 'Dog.png', 'hanuszka.png'}) 
+ Got: (85, {'HiszpanskaInkwizycja.png', 'Tesla.png', "It's Over 9000.jpeg", 'metamorphosis.png', 'LewNieSprzymierzaSieZKojotem.avi', 'JanuszMalpa.png', 'Dog.png', 'hanuszka.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 7 Amount of memes 19 === : 
- Expected: (101, {'metamorphosis.png', 'Mao.png', 'DziwniCiRzymianie.png', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'Nosacz.png', 'PolandIntoSpace.jpg'}) 
- Got: (101, {'metamorphosis.png', 'Mao.png', 'DziwniCiRzymianie.png', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'Nosacz.png', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 7.5, n**2 time execution 0.12 
- === Test 8 Amount of memes 16 === : 
- Expected: (94, {'hanuszka.png', 'Mussolini.jpg', 'Nosacz.png', 'Urban.png', 'Stalin.png', 'PolandIntoSpace.jpg', "It's Over 9000.jpeg"}) 
- Got: (94, {'hanuszka.png', 'Mussolini.jpg', 'Nosacz.png', 'Urban.png', 'Stalin.png', 'PolandIntoSpace.jpg', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.72, n**2 time execution 0.06 
- === Test 9 Amount of memes 12 === : 
- Expected: (83, {'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'Smolensk.png', 'Urban.png', 'Stalin.png', "It's Over 9000.jpeg"}) 
- Got: (83, {'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'Smolensk.png', 'Urban.png', 'Stalin.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.05, n**2 time execution 0.12 
- === Test 10 Amount of memes 4 === : 
- Expected: (21, {'NaWalbrzych.avi', 'skocznia.png', 'footballMessi.png', 'AndrzejDuda.png'}) 
- Got: (21, {'NaWalbrzych.avi', 'skocznia.png', 'footballMessi.png', 'AndrzejDuda.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 11 Amount of memes 11 === : 
- Expected: (48, {'FranceWar.png', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'Stalin.png', 'Nazi.png'}) 
- Got: (48, {'FranceWar.png', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'Stalin.png', 'Nazi.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.03 
+ === Test 2 Amount of memes 9 === : 
+ usb_size = 3 memes = [('Chernobyl.jpg', 145, 2), ('PolandIntoSpace.jpg', 135, 12), ('JanuszMalpa.png', 378, 8), ('Stalin.png', 178, 2), ('Dog.png', 173, 1), ('DziwniCiRzymianie.png', 394, 7), ('RickMorty.png', 67, 8), ('PoczujWSobieSileLwa.png', 88, 14), ('WaznaWiadomosc.avi', 167, 0)] 
+ Expected: (54, {'PolandIntoSpace.jpg', 'Chernobyl.jpg', 'DziwniCiRzymianie.png', 'Stalin.png', 'JanuszMalpa.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png'}) 
+ Got: (54, {'PolandIntoSpace.jpg', 'Chernobyl.jpg', 'DziwniCiRzymianie.png', 'Stalin.png', 'JanuszMalpa.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 3 Amount of memes 8 === : 
+ usb_size = 1 memes = [('RickMorty.png', 125, 6), ('HiszpanskaInkwizycja.png', 20, 5), ('PoczujWSobieSileLwa.png', 443, 8), ('JanuszMalpa.png', 446, 7), ('Cat.jpg', 34, 3), ('sad_frog.jpg', 175, 12), ('Urban.png', 361, 8), ('Stalin.png', 283, 9)] 
+ Expected: (43, {'HiszpanskaInkwizycja.png', 'Urban.png', 'Cat.jpg', 'sad_frog.jpg', 'Stalin.png', 'RickMorty.png'}) 
+ Got: (43, {'HiszpanskaInkwizycja.png', 'Urban.png', 'Cat.jpg', 'sad_frog.jpg', 'Stalin.png', 'RickMorty.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 4 Amount of memes 9 === : 
+ usb_size = 2 memes = [('Chernobyl.jpg', 9, 2), ('HiszpanskaInkwizycja.png', 79, 20), ('AsterixObelix.png', 108, 15), ('metamorphosis.png', 291, 15), ('NaWalbrzych.avi', 12, 8), ('DziwniCiRzymianie.png', 364, 12), ('PolandIntoSpace.jpg', 348, 17), ('JanuszMalpa.png', 49, 7), ('AndrzejDuda.png', 1, 19)] 
+ Expected: (115, {'HiszpanskaInkwizycja.png', 'PolandIntoSpace.jpg', 'metamorphosis.png', 'AndrzejDuda.png', 'Chernobyl.jpg', 'AsterixObelix.png', 'DziwniCiRzymianie.png', 'JanuszMalpa.png', 'NaWalbrzych.avi'}) 
+ Got: (115, {'HiszpanskaInkwizycja.png', 'PolandIntoSpace.jpg', 'metamorphosis.png', 'AndrzejDuda.png', 'Chernobyl.jpg', 'DziwniCiRzymianie.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 5 Amount of memes 9 === : 
+ usb_size = 1 memes = [('Urban.png', 451, 16), ('PoczujWSobieSileLwa.png', 455, 1), ('WaznaWiadomosc.avi', 336, 14), ('sad_frog.jpg', 78, 8), ('AndrzejDuda.png', 393, 5), ('Cat.jpg', 177, 7), ('Nazi.png', 117, 4), ('Tesla.png', 408, 15), ('Mussolini.jpg', 247, 8)] 
+ Expected: (44, {'Tesla.png', 'sad_frog.jpg', 'Cat.jpg', 'WaznaWiadomosc.avi'}) 
+ Got: (44, {'Tesla.png', 'sad_frog.jpg', 'Cat.jpg', 'WaznaWiadomosc.avi'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 6 Amount of memes 17 === : 
+ usb_size = 3 memes = [('JanKazimierz.png', 390, 5), ("It's Over 9000.jpeg", 409, 8), ('pride.jpg', 194, 7), ('metamorphosis.png', 329, 2), ('Nosacz.png', 215, 15), ('NaWalbrzych.avi', 84, 11), ('Smolensk.png', 439, 15), ('Dog.png', 352, 14), ('WaznaWiadomosc.avi', 412, 10), ('AsterixObelix.png', 146, 10), ('JanuszMalpa.png', 205, 16), ('FranceWar.png', 216, 19), ('RickMorty.png', 107, 9), ('Cat.jpg', 315, 3), ('Urban.png', 491, 13), ('Nazi.png', 24, 14), ('Hitler.jpg', 370, 17)] 
+ Expected: (163, {'Smolensk.png', 'Nazi.png', 'WaznaWiadomosc.avi', 'FranceWar.png', 'Urban.png', 'Nosacz.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'RickMorty.png', 'NaWalbrzych.avi'}) 
+ Got: (163, {'Smolensk.png', 'Nazi.png', 'WaznaWiadomosc.avi', 'Urban.png', 'FranceWar.png', 'Nosacz.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'RickMorty.png', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 2.05, n**2 time execution 0.12 
+ === Test 7 Amount of memes 6 === : 
+ usb_size = 1 memes = [("It's Over 9000.jpeg", 387, 8), ('skocznia.png', 311, 20), ('Nosacz.png', 302, 9), ('JanuszMalpa.png', 486, 18), ('Dog.png', 230, 17), ('DziwniCiRzymianie.png', 83, 7)] 
+ Expected: (53, {'skocznia.png', 'Dog.png', 'Nosacz.png', 'DziwniCiRzymianie.png'}) 
+ Got: (53, {'skocznia.png', 'Dog.png', 'Nosacz.png', 'DziwniCiRzymianie.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.3 
+ === Test 8 Amount of memes 14 === : 
+ usb_size = 3 memes = [('DziwniCiRzymianie.png', 232, 2), ('AndrzejDuda.png', 442, 20), ('Hitler.jpg', 429, 9), ('Cat.jpg', 286, 4), ('Nosacz.png', 413, 15), ('WaznaWiadomosc.avi', 434, 15), ('Urban.png', 120, 7), ('footballMessi.png', 91, 10), ('JanKazimierz.png', 124, 16), ('skocznia.png', 375, 13), ('Stalin.png', 449, 2), ('Mao.png', 213, 14), ("It's Over 9000.jpeg", 492, 13), ('PolandIntoSpace.jpg', 474, 17)] 
+ Expected: (133, {'skocznia.png', 'JanKazimierz.png', 'PolandIntoSpace.jpg', 'WaznaWiadomosc.avi', 'AndrzejDuda.png', "It's Over 9000.jpeg", 'Nosacz.png', 'Mao.png', 'footballMessi.png'}) 
+ Got: (133, {'skocznia.png', 'JanKazimierz.png', 'PolandIntoSpace.jpg', "It's Over 9000.jpeg", 'WaznaWiadomosc.avi', 'AndrzejDuda.png', 'Nosacz.png', 'Mao.png', 'footballMessi.png'}) 
+ 2**n time execution: 0.19, n**2 time execution 0.11 
+ === Test 9 Amount of memes 17 === : 
+ usb_size = 0 memes = [('NaWalbrzych.avi', 396, 7), ('Tesla.png', 249, 3), ("It's Over 9000.jpeg", 493, 5), ('JanuszMalpa.png', 164, 3), ('Chernobyl.jpg', 500, 11), ('sad_frog.jpg', 279, 19), ('Stalin.png', 223, 17), ('Dog.png', 284, 3), ('Nosacz.png', 278, 13), ('skocznia.png', 121, 6), ('Cat.jpg', 496, 18), ('hanuszka.png', 422, 16), ('Mussolini.jpg', 71, 12), ('FranceWar.png', 342, 15), ('LewNieSprzymierzaSieZKojotem.avi', 244, 3), ('pride.jpg', 318, 7), ('Urban.png', 415, 14)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 1.92, n**2 time execution 0.01 
+ === Test 10 Amount of memes 8 === : 
+ usb_size = 0 memes = [('metamorphosis.png', 43, 15), ('Spongebob.png', 439, 15), ('JanKazimierz.png', 114, 10), ('PoczujWSobieSileLwa.png', 226, 0), ('Smolensk.png', 436, 5), ('AsterixObelix.png', 159, 10), ('Tesla.png', 272, 12), ('pride.jpg', 8, 19)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 11 Amount of memes 6 === : 
+ usb_size = 1 memes = [('metamorphosis.png', 208, 14), ('JanuszMalpa.png', 395, 3), ('AndrzejDuda.png', 333, 13), ('Cat.jpg', 157, 8), ('Chernobyl.jpg', 192, 7), ('Hitler.jpg', 499, 3)] 
+ Expected: (42, {'Chernobyl.jpg', 'AndrzejDuda.png', 'Cat.jpg', 'metamorphosis.png'}) 
+ Got: (42, {'Chernobyl.jpg', 'AndrzejDuda.png', 'Cat.jpg', 'metamorphosis.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
  === Test 12 Amount of memes 10 === : 
- Expected: (92, {'sad_pepe.png', 'WaznaWiadomosc.avi', 'DziwniCiRzymianie.png', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'NaWalbrzych.avi', 'Urban.png', 'AmericaOil.jpg'}) 
- Got: (92, {'sad_pepe.png', 'WaznaWiadomosc.avi', 'DziwniCiRzymianie.png', 'Cat.jpg', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'Urban.png', 'AmericaOil.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.15 
- === Test 13 Amount of memes 13 === : 
- Expected: (44, {'Hitler.jpg', "It's Over 9000.jpeg", 'RickMorty.png'}) 
- Got: (44, {'Hitler.jpg', "It's Over 9000.jpeg", 'RickMorty.png'}) 
- 2**n time execution: 0.08, n**2 time execution 0.03 
- === Test 14 Amount of memes 12 === : 
- Expected: (24, {'AmericaOil.jpg', 'Urban.png'}) 
- Got: (24, {'AmericaOil.jpg', 'Urban.png'}) 
- 2**n time execution: 0.05, n**2 time execution 0.02 
- === Test 15 Amount of memes 17 === : 
- Expected: (118, {'FranceWar.png', 'Hitler.jpg', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'Cat.jpg', 'PoczujWSobieSileLwa.png', 'Dog.png', 'Urban.png'}) 
- Got: (118, {'FranceWar.png', 'Hitler.jpg', 'sad_pepe.png', 'Cat.jpg', 'WaznaWiadomosc.avi', 'PoczujWSobieSileLwa.png', 'Dog.png', 'Urban.png'}) 
- 2**n time execution: 1.55, n**2 time execution 0.21 
- === Test 16 Amount of memes 1 === : 
- Expected: (14, {'skocznia.png'}) 
- Got: (14, {'skocznia.png'}) 
+ usb_size = 2 memes = [('skocznia.png', 130, 19), ('Smolensk.png', 471, 10), ('JanKazimierz.png', 485, 14), ('FranceWar.png', 388, 15), ('Cat.jpg', 223, 17), ("It's Over 9000.jpeg", 352, 18), ('PolandIntoSpace.jpg', 158, 5), ('hanuszka.png', 349, 12), ('Stalin.png', 316, 17), ('PoczujWSobieSileLwa.png', 36, 16)] 
+ Expected: (119, {'skocznia.png', 'PolandIntoSpace.jpg', "It's Over 9000.jpeg", 'FranceWar.png', 'Cat.jpg', 'Stalin.png', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ Got: (119, {'skocznia.png', 'PolandIntoSpace.jpg', "It's Over 9000.jpeg", 'FranceWar.png', 'Cat.jpg', 'Stalin.png', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ 2**n time execution: 0.01, n**2 time execution 0.03 
+ === Test 13 Amount of memes 15 === : 
+ usb_size = 2 memes = [('Nosacz.png', 70, 7), ('PoczujWSobieSileLwa.png', 221, 3), ('Nazi.png', 399, 15), ('Dog.png', 398, 12), ('Chernobyl.jpg', 393, 16), ('DziwniCiRzymianie.png', 14, 14), ('Mao.png', 136, 17), ('AndrzejDuda.png', 401, 3), ('metamorphosis.png', 120, 19), ('Cat.jpg', 365, 15), ('Mussolini.jpg', 22, 15), ('AmericaOil.jpg', 187, 7), ('Stalin.png', 50, 7), ('Spongebob.png', 163, 17), ('pride.jpg', 449, 11)] 
+ Expected: (149, {'Nazi.png', 'Spongebob.png', 'metamorphosis.png', 'Chernobyl.jpg', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Cat.jpg', 'AmericaOil.jpg', 'Stalin.png', 'Mao.png', 'Mussolini.jpg'}) 
+ Got: (149, {'Nazi.png', 'Spongebob.png', 'metamorphosis.png', 'Chernobyl.jpg', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Cat.jpg', 'Stalin.png', 'AmericaOil.jpg', 'Mao.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.41, n**2 time execution 0.11 
+ === Test 14 Amount of memes 1 === : 
+ usb_size = 2 memes = [('JanKazimierz.png', 149, 13)] 
+ Expected: (13, {'JanKazimierz.png'}) 
+ Got: (13, {'JanKazimierz.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.01 
- === Test 17 Amount of memes 3 === : 
- Expected: (19, {'Hitler.jpg', 'JanuszMalpa.png', 'Spongebob.png'}) 
- Got: (19, {'Hitler.jpg', 'JanuszMalpa.png', 'Spongebob.png'}) 
+ === Test 15 Amount of memes 8 === : 
+ usb_size = 1 memes = [('Nosacz.png', 272, 8), ('PolandIntoSpace.jpg', 69, 5), ('RickMorty.png', 198, 11), ('Cat.jpg', 64, 14), ('Nazi.png', 108, 12), ('AsterixObelix.png', 56, 5), ('AmericaOil.jpg', 99, 10), ('Mao.png', 226, 14)] 
+ Expected: (74, {'Nazi.png', 'Nosacz.png', 'AsterixObelix.png', 'Cat.jpg', 'RickMorty.png', 'Mao.png', 'AmericaOil.jpg'}) 
+ Got: (74, {'Nazi.png', 'Nosacz.png', 'AsterixObelix.png', 'Cat.jpg', 'RickMorty.png', 'Mao.png', 'AmericaOil.jpg'}) 
  2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 18 Amount of memes 11 === : 
- Expected: (72, {'skocznia.png', 'Mussolini.jpg', 'PoczujWSobieSileLwa.png', 'JanKazimierz.png', "It's Over 9000.jpeg", 'Spongebob.png'}) 
- Got: (72, {'skocznia.png', 'Mussolini.jpg', 'PoczujWSobieSileLwa.png', 'JanKazimierz.png', "It's Over 9000.jpeg", 'Spongebob.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.1 
- === Test 19 Amount of memes 1 === : 
- Expected: (1, {'RickMorty.png'}) 
- Got: (1, {'RickMorty.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 20 Amount of memes 10 === : 
- Expected: (59, {'FranceWar.png', 'HiszpanskaInkwizycja.png', 'Smolensk.png', 'NaWalbrzych.avi', 'Dog.png'}) 
- Got: (59, {'FranceWar.png', 'HiszpanskaInkwizycja.png', 'Smolensk.png', 'NaWalbrzych.avi', 'Dog.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.03 
- === Test 21 Amount of memes 7 === : 
- Expected: (51, {'sad_frog.jpg', 'Tesla.png', 'PolandIntoSpace.jpg', 'AsterixObelix.png'}) 
- Got: (51, {'sad_frog.jpg', 'Tesla.png', 'PolandIntoSpace.jpg', 'AsterixObelix.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 22 Amount of memes 19 === : 
- Expected: (85, {'FranceWar.png', 'skocznia.png', 'Nosacz.png', 'pride.jpg', 'AmericaOil.jpg', 'Nazi.png'}) 
- Got: (85, {'FranceWar.png', 'skocznia.png', 'Nosacz.png', 'pride.jpg', 'AmericaOil.jpg', 'Nazi.png'}) 
- 2**n time execution: 7.46, n**2 time execution 0.12 
- === Test 23 Amount of memes 15 === : 
- Expected: (147, {'FranceWar.png', 'hanuszka.png', 'metamorphosis.png', 'AmericaOil.jpg', 'Cat.jpg', 'Mussolini.jpg', 'skocznia.png', 'RickMorty.png', 'Dog.png', 'JanKazimierz.png', 'pride.jpg', 'Chernobyl.jpg'}) 
- Got: (147, {'FranceWar.png', 'hanuszka.png', 'metamorphosis.png', 'Cat.jpg', 'Mussolini.jpg', 'skocznia.png', 'RickMorty.png', 'pride.jpg', 'Dog.png', 'JanKazimierz.png', 'AmericaOil.jpg', 'Chernobyl.jpg'}) 
- 2**n time execution: 0.34, n**2 time execution 0.22 
- === Test 24 Amount of memes 8 === : 
- Expected: (64, {'Cat.jpg', 'sad_frog.jpg', 'Mussolini.jpg', 'RickMorty.png', 'Stalin.png', "It's Over 9000.jpeg"}) 
- Got: (64, {'Cat.jpg', 'sad_frog.jpg', 'Mussolini.jpg', 'RickMorty.png', 'Stalin.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 25 Amount of memes 8 === : 
- Expected: (88, {'sad_pepe.png', 'Mussolini.jpg', 'AsterixObelix.png', 'Smolensk.png', 'Dog.png', 'LewNieSprzymierzaSieZKojotem.avi'}) 
- Got: (88, {'sad_pepe.png', 'Mussolini.jpg', 'AsterixObelix.png', 'Smolensk.png', 'Dog.png', 'LewNieSprzymierzaSieZKojotem.avi'}) 
- 2**n time execution: 0.0, n**2 time execution 0.04 
- === Test 26 Amount of memes 11 === : 
- Expected: (72, {'FranceWar.png', 'sad_pepe.png', 'HiszpanskaInkwizycja.png', 'RickMorty.png', 'Urban.png', 'PolandIntoSpace.jpg'}) 
- Got: (72, {'FranceWar.png', 'sad_pepe.png', 'HiszpanskaInkwizycja.png', 'RickMorty.png', 'AndrzejDuda.png', 'Urban.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.11 
- === Test 27 Amount of memes 8 === : 
- Expected: (91, {'Hitler.jpg', 'hanuszka.png', 'FranceWar.png', 'Tesla.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Dog.png'}) 
- Got: (91, {'Hitler.jpg', 'hanuszka.png', 'FranceWar.png', 'Tesla.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Dog.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 28 Amount of memes 17 === : 
- Expected: (90, {'metamorphosis.png', 'Mussolini.jpg', 'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'NaWalbrzych.avi', 'LewNieSprzymierzaSieZKojotem.avi', "It's Over 9000.jpeg"}) 
- Got: (90, {'metamorphosis.png', 'Mussolini.jpg', 'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'NaWalbrzych.avi', 'LewNieSprzymierzaSieZKojotem.avi', "It's Over 9000.jpeg"}) 
- 2**n time execution: 1.54, n**2 time execution 0.1 
- === Test 29 Amount of memes 11 === : 
- Expected: (106, {'Hitler.jpg', 'Mao.png', 'WaznaWiadomosc.avi', 'Nosacz.png', 'PoczujWSobieSileLwa.png', 'JanuszMalpa.png', 'AndrzejDuda.png', 'JanKazimierz.png', 'PolandIntoSpace.jpg'}) 
- Got: (106, {'Hitler.jpg', 'Mao.png', 'Nosacz.png', 'PoczujWSobieSileLwa.png', 'JanuszMalpa.png', 'AndrzejDuda.png', 'JanKazimierz.png', 'Urban.png', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.02, n**2 time execution 0.11 
- === Test 30 Amount of memes 1 === : 
+ === Test 16 Amount of memes 2 === : 
+ usb_size = 0 memes = [('Cat.jpg', 88, 2), ('Nazi.png', 44, 5)] 
  Expected: (0, {'TestMeme'}) 
  Got: (0, set()) 
  2**n time execution: 0.0, n**2 time execution 0.01 
- === Test 31 Amount of memes 14 === : 
- Expected: (97, {'hanuszka.png', 'skocznia.png', 'Nosacz.png', 'RickMorty.png', 'NaWalbrzych.avi', 'AndrzejDuda.png', 'JanKazimierz.png', 'Stalin.png'}) 
- Got: (97, {'hanuszka.png', 'skocznia.png', 'Nosacz.png', 'RickMorty.png', 'NaWalbrzych.avi', 'AndrzejDuda.png', 'JanKazimierz.png', 'Stalin.png'}) 
- 2**n time execution: 0.16, n**2 time execution 0.11 
- === Test 32 Amount of memes 20 === : 
- Expected: (126, {'FranceWar.png', 'Hitler.jpg', 'metamorphosis.png', 'Cat.jpg', 'skocznia.png', 'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'JanuszMalpa.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Stalin.png', "It's Over 9000.jpeg"}) 
- Got: (126, {'FranceWar.png', 'Hitler.jpg', 'metamorphosis.png', 'Cat.jpg', 'skocznia.png', 'HiszpanskaInkwizycja.png', 'PoczujWSobieSileLwa.png', 'JanuszMalpa.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Stalin.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 15.72, n**2 time execution 0.31 
- === Test 33 Amount of memes 5 === : 
- Expected: (30, {'metamorphosis.png', 'Mao.png', 'HiszpanskaInkwizycja.png', 'pride.jpg', "It's Over 9000.jpeg"}) 
- Got: (30, {'metamorphosis.png', 'Mao.png', 'HiszpanskaInkwizycja.png', 'pride.jpg', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 34 Amount of memes 16 === : 
- Expected: (62, {'hanuszka.png', 'metamorphosis.png', 'sad_frog.jpg', 'skocznia.png', 'NaWalbrzych.avi', 'Dog.png', 'footballMessi.png'}) 
- Got: (62, {'hanuszka.png', 'metamorphosis.png', 'sad_frog.jpg', 'skocznia.png', 'NaWalbrzych.avi', 'Dog.png', 'footballMessi.png'}) 
- 2**n time execution: 0.75, n**2 time execution 0.11 
- === Test 35 Amount of memes 16 === : 
- Expected: (114, {'Tesla.png', 'Mussolini.jpg', 'skocznia.png', 'RickMorty.png', 'NaWalbrzych.avi', 'JanuszMalpa.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Chernobyl.jpg', "It's Over 9000.jpeg"}) 
- Got: (114, {'skocznia.png', 'Tesla.png', 'Mussolini.jpg', 'RickMorty.png', 'NaWalbrzych.avi', 'JanuszMalpa.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Chernobyl.jpg', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.73, n**2 time execution 0.24 
- === Test 36 Amount of memes 8 === : 
- Expected: (74, {'Smolensk.png', 'AndrzejDuda.png', 'pride.jpg', 'Stalin.png', 'PolandIntoSpace.jpg'}) 
- Got: (74, {'Smolensk.png', 'AndrzejDuda.png', 'pride.jpg', 'Stalin.png', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.11 
- === Test 37 Amount of memes 17 === : 
- Expected: (104, {'Hitler.jpg', 'sad_frog.jpg', 'PoczujWSobieSileLwa.png', 'Dog.png', 'Urban.png', 'pride.jpg', 'Nazi.png'}) 
- Got: (104, {'Hitler.jpg', 'sad_frog.jpg', 'PoczujWSobieSileLwa.png', 'Dog.png', 'pride.jpg', 'Urban.png', 'Nazi.png'}) 
- 2**n time execution: 1.54, n**2 time execution 0.15 
- === Test 38 Amount of memes 19 === : 
- Expected: (38, {'Chernobyl.jpg', 'footballMessi.png', 'AndrzejDuda.png'}) 
- Got: (38, {'Chernobyl.jpg', 'footballMessi.png', 'AndrzejDuda.png'}) 
- 2**n time execution: 7.52, n**2 time execution 0.03 
- === Test 39 Amount of memes 18 === : 
- Expected: (114, {'FranceWar.png', 'AmericaOil.jpg', 'sad_pepe.png', 'Cat.jpg', 'DziwniCiRzymianie.png', 'Urban.png', 'pride.jpg', 'Nazi.png'}) 
- Got: (114, {'FranceWar.png', 'AmericaOil.jpg', 'sad_pepe.png', 'Cat.jpg', 'DziwniCiRzymianie.png', 'pride.jpg', 'Urban.png', 'Nazi.png'}) 
- 2**n time execution: 3.48, n**2 time execution 0.11 
- === Test 40 Amount of memes 1 === : 
- Expected: (12, {'JanKazimierz.png'}) 
- Got: (12, {'JanKazimierz.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.01 
- === Test 41 Amount of memes 4 === : 
- Expected: (46, {'Chernobyl.jpg', 'skocznia.png', 'Mao.png', 'Smolensk.png'}) 
- Got: (46, {'Chernobyl.jpg', 'skocznia.png', 'Mao.png', 'Smolensk.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 42 Amount of memes 3 === : 
- Expected: (37, {'Cat.jpg', 'Chernobyl.jpg', 'Stalin.png'}) 
- Got: (37, {'Cat.jpg', 'Chernobyl.jpg', 'Stalin.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.09 
- === Test 43 Amount of memes 10 === : 
- Expected: (86, {'Nosacz.png', 'PoczujWSobieSileLwa.png', 'Smolensk.png', 'Dog.png', 'JanKazimierz.png', 'Urban.png'}) 
- Got: (86, {'Nosacz.png', 'PoczujWSobieSileLwa.png', 'Smolensk.png', 'Dog.png', 'JanKazimierz.png', 'Urban.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.11 
- === Test 44 Amount of memes 16 === : 
- Expected: (53, {'NaWalbrzych.avi', "It's Over 9000.jpeg", 'Dog.png', 'Nosacz.png'}) 
- Got: (53, {'NaWalbrzych.avi', "It's Over 9000.jpeg", 'Dog.png', 'Nosacz.png'}) 
- 2**n time execution: 0.7, n**2 time execution 0.04 
- === Test 45 Amount of memes 17 === : 
- Expected: (137, {'FranceWar.png', 'metamorphosis.png', 'Mao.png', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'pride.jpg', 'Nazi.png'}) 
- Got: (137, {'FranceWar.png', 'metamorphosis.png', 'Mao.png', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'pride.jpg', 'Nazi.png'}) 
- 2**n time execution: 1.55, n**2 time execution 0.21 
- === Test 46 Amount of memes 4 === : 
- Expected: (38, {'Urban.png', 'NaWalbrzych.avi', 'HiszpanskaInkwizycja.png', 'JanKazimierz.png'}) 
- Got: (38, {'Urban.png', 'NaWalbrzych.avi', 'HiszpanskaInkwizycja.png', 'JanKazimierz.png'}) 
+ === Test 17 Amount of memes 11 === : 
+ usb_size = 1 memes = [('JanuszMalpa.png', 166, 15), ('AndrzejDuda.png', 460, 8), ('AsterixObelix.png', 124, 3), ('footballMessi.png', 37, 2), ('Tesla.png', 87, 8), ('skocznia.png', 51, 20), ('hanuszka.png', 27, 3), ('RickMorty.png', 141, 11), ('Chernobyl.jpg', 498, 17), ('Cat.jpg', 460, 14), ('sad_frog.jpg', 49, 9)] 
+ Expected: (83, {'skocznia.png', 'Tesla.png', 'Chernobyl.jpg', 'sad_frog.jpg', 'JanuszMalpa.png', 'RickMorty.png', 'hanuszka.png'}) 
+ Got: (83, {'skocznia.png', 'Tesla.png', 'Chernobyl.jpg', 'sad_frog.jpg', 'JanuszMalpa.png', 'RickMorty.png', 'hanuszka.png'}) 
+ 2**n time execution: 0.02, n**2 time execution 0.02 
+ === Test 18 Amount of memes 8 === : 
+ usb_size = 1 memes = [('RickMorty.png', 118, 10), ('PoczujWSobieSileLwa.png', 9, 6), ("It's Over 9000.jpeg", 64, 15), ('AmericaOil.jpg', 176, 18), ('Mussolini.jpg', 71, 0), ('JanuszMalpa.png', 45, 0), ('HiszpanskaInkwizycja.png', 297, 14), ('footballMessi.png', 102, 18)] 
+ Expected: (81, {'HiszpanskaInkwizycja.png', "It's Over 9000.jpeg", 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ Got: (81, {'HiszpanskaInkwizycja.png', "It's Over 9000.jpeg", 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'AmericaOil.jpg', 'footballMessi.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 47 Amount of memes 3 === : 
- Expected: (49, {'NaWalbrzych.avi', 'PolandIntoSpace.jpg', 'PoczujWSobieSileLwa.png'}) 
- Got: (49, {'NaWalbrzych.avi', 'PolandIntoSpace.jpg', 'PoczujWSobieSileLwa.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 48 Amount of memes 16 === : 
- Expected: (81, {'FranceWar.png', 'DziwniCiRzymianie.png', 'skocznia.png', 'AsterixObelix.png', 'AmericaOil.jpg', 'PolandIntoSpace.jpg'}) 
- Got: (81, {'FranceWar.png', 'DziwniCiRzymianie.png', 'skocznia.png', 'AsterixObelix.png', 'AmericaOil.jpg', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.7, n**2 time execution 0.04 
- === Test 49 Amount of memes 5 === : 
- Expected: (49, {'Hitler.jpg', 'sad_frog.jpg', 'LewNieSprzymierzaSieZKojotem.avi', 'footballMessi.png', 'AmericaOil.jpg'}) 
- Got: (49, {'Hitler.jpg', 'sad_frog.jpg', 'footballMessi.png', 'LewNieSprzymierzaSieZKojotem.avi', 'AmericaOil.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.06 
- === Test 50 Amount of memes 4 === : 
- Expected: (36, {'Hitler.jpg', 'Urban.png', 'JanuszMalpa.png', 'RickMorty.png'}) 
- Got: (36, {'Hitler.jpg', 'JanuszMalpa.png', 'Urban.png', 'RickMorty.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 51 Amount of memes 10 === : 
- Expected: (40, {'Stalin.png', 'Nosacz.png'}) 
- Got: (40, {'Stalin.png', 'Nosacz.png'}) 
+ === Test 19 Amount of memes 3 === : 
+ usb_size = 2 memes = [('Dog.png', 268, 7), ('pride.jpg', 436, 15), ('hanuszka.png', 213, 17)] 
+ Expected: (39, {'pride.jpg', 'hanuszka.png', 'Dog.png'}) 
+ Got: (39, {'pride.jpg', 'hanuszka.png', 'Dog.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 20 Amount of memes 5 === : 
+ usb_size = 0 memes = [('Cat.jpg', 250, 13), ('RickMorty.png', 165, 1), ('Urban.png', 141, 2), ('metamorphosis.png', 257, 3), ('WaznaWiadomosc.avi', 190, 17)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
  2**n time execution: 0.0, n**2 time execution 0.01 
- === Test 52 Amount of memes 15 === : 
- Expected: (41, {'DziwniCiRzymianie.png', 'skocznia.png', "It's Over 9000.jpeg"}) 
- Got: (41, {'DziwniCiRzymianie.png', 'skocznia.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.33, n**2 time execution 0.02 
- === Test 53 Amount of memes 18 === : 
- Expected: (44, {'AmericaOil.jpg', 'PolandIntoSpace.jpg', 'RickMorty.png'}) 
- Got: (44, {'AmericaOil.jpg', 'PolandIntoSpace.jpg', 'RickMorty.png'}) 
+ === Test 21 Amount of memes 18 === : 
+ usb_size = 1 memes = [('AsterixObelix.png', 42, 2), ('hanuszka.png', 116, 16), ('Spongebob.png', 461, 8), ('PolandIntoSpace.jpg', 280, 5), ('JanuszMalpa.png', 228, 17), ('sad_frog.jpg', 39, 0), ('Dog.png', 328, 3), ('AndrzejDuda.png', 260, 10), ('DziwniCiRzymianie.png', 97, 9), ('Tesla.png', 405, 18), ('LewNieSprzymierzaSieZKojotem.avi', 209, 13), ('HiszpanskaInkwizycja.png', 461, 12), ('Hitler.jpg', 47, 17), ('WaznaWiadomosc.avi', 176, 17), ('Nazi.png', 106, 15), ('FranceWar.png', 437, 10), ('skocznia.png', 388, 3), ('Stalin.png', 360, 1)] 
+ Expected: (106, {'Nazi.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Hitler.jpg', 'hanuszka.png'}) 
+ Got: (106, {'Nazi.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'Hitler.jpg', 'hanuszka.png'}) 
  2**n time execution: 4.15, n**2 time execution 0.03 
- === Test 54 Amount of memes 2 === : 
- Expected: (21, {'hanuszka.png', 'footballMessi.png'}) 
- Got: (21, {'hanuszka.png', 'footballMessi.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 55 Amount of memes 5 === : 
- Expected: (58, {'Cat.jpg', 'WaznaWiadomosc.avi', 'Mussolini.jpg', 'AsterixObelix.png', 'AmericaOil.jpg'}) 
- Got: (58, {'Cat.jpg', 'WaznaWiadomosc.avi', 'Mussolini.jpg', 'AsterixObelix.png', 'AmericaOil.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 56 Amount of memes 10 === : 
- Expected: (85, {'hanuszka.png', 'sad_pepe.png', 'Cat.jpg', 'AmericaOil.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- Got: (85, {'hanuszka.png', 'sad_pepe.png', 'Cat.jpg', 'AmericaOil.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- 2**n time execution: 0.01, n**2 time execution 0.11 
- === Test 57 Amount of memes 20 === : 
- Expected: (127, {'Hitler.jpg', 'sad_pepe.png', 'Cat.jpg', 'DziwniCiRzymianie.png', 'skocznia.png', 'HiszpanskaInkwizycja.png', 'Nosacz.png', 'NaWalbrzych.avi', 'AmericaOil.jpg', 'Chernobyl.jpg', "It's Over 9000.jpeg"}) 
- Got: (127, {'Hitler.jpg', 'sad_pepe.png', 'Cat.jpg', 'DziwniCiRzymianie.png', 'skocznia.png', 'HiszpanskaInkwizycja.png', 'Nosacz.png', 'NaWalbrzych.avi', 'AmericaOil.jpg', 'Chernobyl.jpg', "It's Over 9000.jpeg"}) 
- 2**n time execution: 17.69, n**2 time execution 0.21 
- === Test 58 Amount of memes 4 === : 
- Expected: (31, {'DziwniCiRzymianie.png', "It's Over 9000.jpeg"}) 
- Got: (31, {'DziwniCiRzymianie.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 59 Amount of memes 19 === : 
- Expected: (87, {'FranceWar.png', 'Cat.jpg', 'AsterixObelix.png', 'JanuszMalpa.png', 'AndrzejDuda.png', 'AmericaOil.jpg'}) 
- Got: (87, {'FranceWar.png', 'Cat.jpg', 'AsterixObelix.png', 'JanuszMalpa.png', 'AndrzejDuda.png', 'AmericaOil.jpg'}) 
- 2**n time execution: 7.3, n**2 time execution 0.11 
- === Test 60 Amount of memes 7 === : 
+ === Test 22 Amount of memes 12 === : 
+ usb_size = 0 memes = [('hanuszka.png', 65, 7), ('Nazi.png', 138, 15), ('LewNieSprzymierzaSieZKojotem.avi', 54, 8), ('metamorphosis.png', 426, 2), ('AmericaOil.jpg', 139, 17), ('JanuszMalpa.png', 89, 1), ('NaWalbrzych.avi', 318, 9), ('AndrzejDuda.png', 181, 18), ('Chernobyl.jpg', 279, 11), ('Urban.png', 355, 11), ('PoczujWSobieSileLwa.png', 75, 0), ('Spongebob.png', 282, 9)] 
  Expected: (0, {'TestMeme'}) 
  Got: (0, set()) 
+ 2**n time execution: 0.04, n**2 time execution 0.01 
+ === Test 23 Amount of memes 13 === : 
+ usb_size = 2 memes = [('Nosacz.png', 299, 16), ('AmericaOil.jpg', 87, 3), ('metamorphosis.png', 473, 17), ('Stalin.png', 239, 18), ('Smolensk.png', 362, 12), ("It's Over 9000.jpeg", 51, 10), ('WaznaWiadomosc.avi', 393, 3), ('Tesla.png', 427, 2), ('sad_pepe.png', 64, 0), ('AndrzejDuda.png', 121, 6), ('JanKazimierz.png', 362, 12), ('skocznia.png', 373, 9), ('NaWalbrzych.avi', 202, 10)] 
+ Expected: (95, {'JanKazimierz.png', 'Smolensk.png', "It's Over 9000.jpeg", 'metamorphosis.png', 'Nosacz.png', 'Stalin.png', 'NaWalbrzych.avi'}) 
+ Got: (95, {'JanKazimierz.png', 'Smolensk.png', "It's Over 9000.jpeg", 'metamorphosis.png', 'Nosacz.png', 'Stalin.png', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 0.09, n**2 time execution 0.05 
+ === Test 24 Amount of memes 12 === : 
+ usb_size = 3 memes = [("It's Over 9000.jpeg", 148, 5), ('sad_frog.jpg', 298, 0), ('pride.jpg', 151, 11), ('DziwniCiRzymianie.png', 321, 16), ('Nazi.png', 81, 17), ('NaWalbrzych.avi', 17, 10), ('FranceWar.png', 15, 8), ('JanKazimierz.png', 440, 0), ('JanuszMalpa.png', 383, 11), ('sad_pepe.png', 179, 12), ('Nosacz.png', 97, 5), ('Stalin.png', 82, 10)] 
+ Expected: (105, {'Nazi.png', 'sad_pepe.png', "It's Over 9000.jpeg", 'FranceWar.png', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Stalin.png', 'JanuszMalpa.png', 'NaWalbrzych.avi', 'pride.jpg'}) 
+ Got: (105, {'Nazi.png', 'sad_pepe.png', "It's Over 9000.jpeg", 'FranceWar.png', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Stalin.png', 'JanuszMalpa.png', 'NaWalbrzych.avi', 'pride.jpg'}) 
+ 2**n time execution: 0.04, n**2 time execution 0.06 
+ === Test 25 Amount of memes 8 === : 
+ usb_size = 1 memes = [('metamorphosis.png', 404, 15), ('JanuszMalpa.png', 200, 5), ('sad_frog.jpg', 11, 18), ('Nosacz.png', 485, 7), ('AsterixObelix.png', 385, 18), ('Tesla.png', 52, 8), ('AmericaOil.jpg', 4, 2), ('RickMorty.png', 143, 20)] 
+ Expected: (81, {'Tesla.png', 'metamorphosis.png', 'AsterixObelix.png', 'sad_frog.jpg', 'RickMorty.png', 'AmericaOil.jpg'}) 
+ Got: (81, {'Tesla.png', 'metamorphosis.png', 'AsterixObelix.png', 'sad_frog.jpg', 'RickMorty.png', 'AmericaOil.jpg'}) 
  2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 26 Amount of memes 3 === : 
+ usb_size = 3 memes = [('DziwniCiRzymianie.png', 116, 0), ('LewNieSprzymierzaSieZKojotem.avi', 86, 3), ('AmericaOil.jpg', 34, 0)] 
+ Expected: (3, {'LewNieSprzymierzaSieZKojotem.avi'}) 
+ Got: (3, {'LewNieSprzymierzaSieZKojotem.avi'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 27 Amount of memes 8 === : 
+ usb_size = 2 memes = [('PoczujWSobieSileLwa.png', 309, 2), ('pride.jpg', 446, 8), ('FranceWar.png', 346, 15), ('footballMessi.png', 406, 3), ('sad_frog.jpg', 364, 8), ('Nosacz.png', 277, 15), ('Spongebob.png', 140, 13), ('PolandIntoSpace.jpg', 489, 5)] 
+ Expected: (62, {'Spongebob.png', 'FranceWar.png', 'Nosacz.png', 'sad_frog.jpg', 'pride.jpg', 'footballMessi.png'}) 
+ Got: (62, {'Spongebob.png', 'FranceWar.png', 'Nosacz.png', 'sad_frog.jpg', 'pride.jpg', 'footballMessi.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 28 Amount of memes 11 === : 
+ usb_size = 0 memes = [('Mao.png', 185, 11), ('PolandIntoSpace.jpg', 125, 1), ('LewNieSprzymierzaSieZKojotem.avi', 325, 17), ('WaznaWiadomosc.avi', 94, 5), ('JanuszMalpa.png', 260, 5), ('footballMessi.png', 362, 2), ('Hitler.jpg', 141, 10), ('Nosacz.png', 310, 3), ('sad_frog.jpg', 291, 14), ('AmericaOil.jpg', 259, 8), ('pride.jpg', 52, 14)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.02, n**2 time execution 0.01 
+ === Test 29 Amount of memes 8 === : 
+ usb_size = 1 memes = [('Mao.png', 89, 18), ('NaWalbrzych.avi', 16, 8), ('JanKazimierz.png', 77, 2), ('Nazi.png', 397, 12), ('AndrzejDuda.png', 464, 5), ('DziwniCiRzymianie.png', 116, 5), ('Urban.png', 336, 12), ('PolandIntoSpace.jpg', 361, 17)] 
+ Expected: (62, {'JanKazimierz.png', 'PolandIntoSpace.jpg', 'Urban.png', 'DziwniCiRzymianie.png', 'NaWalbrzych.avi', 'Mao.png'}) 
+ Got: (62, {'JanKazimierz.png', 'PolandIntoSpace.jpg', 'Urban.png', 'DziwniCiRzymianie.png', 'NaWalbrzych.avi', 'Mao.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 30 Amount of memes 6 === : 
+ usb_size = 2 memes = [('LewNieSprzymierzaSieZKojotem.avi', 294, 18), ('AmericaOil.jpg', 425, 3), ('WaznaWiadomosc.avi', 242, 5), ('sad_frog.jpg', 290, 0), ('pride.jpg', 379, 16), ('skocznia.png', 75, 14)] 
+ Expected: (56, {'skocznia.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'pride.jpg', 'AmericaOil.jpg'}) 
+ Got: (56, {'skocznia.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'pride.jpg', 'AmericaOil.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 31 Amount of memes 12 === : 
+ usb_size = 0 memes = [('hanuszka.png', 227, 13), ('LewNieSprzymierzaSieZKojotem.avi', 179, 11), ('Chernobyl.jpg', 228, 5), ('Dog.png', 307, 3), ('metamorphosis.png', 199, 8), ('AsterixObelix.png', 2, 6), ('JanKazimierz.png', 221, 17), ('Urban.png', 99, 6), ('RickMorty.png', 17, 20), ('sad_frog.jpg', 103, 3), ('AndrzejDuda.png', 266, 4), ('Cat.jpg', 270, 6)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.04, n**2 time execution 0.01 
+ === Test 32 Amount of memes 17 === : 
+ usb_size = 2 memes = [('pride.jpg', 30, 9), ('footballMessi.png', 387, 20), ('Chernobyl.jpg', 406, 8), ('NaWalbrzych.avi', 140, 20), ('LewNieSprzymierzaSieZKojotem.avi', 126, 14), ('JanuszMalpa.png', 290, 16), ('PolandIntoSpace.jpg', 403, 12), ('PoczujWSobieSileLwa.png', 473, 16), ('RickMorty.png', 118, 0), ('AndrzejDuda.png', 234, 18), ('Mao.png', 179, 14), ('sad_frog.jpg', 445, 20), ('sad_pepe.png', 282, 5), ('AmericaOil.jpg', 53, 17), ('Urban.png', 121, 16), ("It's Over 9000.jpeg", 367, 11), ('hanuszka.png', 395, 3)] 
+ Expected: (164, {'AndrzejDuda.png', 'Urban.png', 'Mao.png', 'LewNieSprzymierzaSieZKojotem.avi', 'sad_frog.jpg', 'JanuszMalpa.png', 'NaWalbrzych.avi', 'pride.jpg', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ Got: (164, {'AndrzejDuda.png', 'Urban.png', 'LewNieSprzymierzaSieZKojotem.avi', 'sad_frog.jpg', 'JanuszMalpa.png', 'NaWalbrzych.avi', 'Mao.png', 'AmericaOil.jpg', 'pride.jpg', 'footballMessi.png'}) 
+ 2**n time execution: 1.82, n**2 time execution 0.11 
+ === Test 33 Amount of memes 12 === : 
+ usb_size = 2 memes = [('Chernobyl.jpg', 405, 6), ('sad_pepe.png', 249, 7), ('pride.jpg', 313, 2), ('JanuszMalpa.png', 454, 17), ('Nazi.png', 398, 9), ("It's Over 9000.jpeg", 368, 20), ('WaznaWiadomosc.avi', 156, 16), ('Hitler.jpg', 211, 14), ('Cat.jpg', 332, 13), ('JanKazimierz.png', 300, 5), ('Stalin.png', 436, 1), ('Smolensk.png', 193, 19)] 
+ Expected: (106, {'Smolensk.png', 'sad_pepe.png', 'WaznaWiadomosc.avi', "It's Over 9000.jpeg", 'Cat.jpg', 'JanuszMalpa.png', 'Hitler.jpg'}) 
+ Got: (106, {'Smolensk.png', 'sad_pepe.png', "It's Over 9000.jpeg", 'WaznaWiadomosc.avi', 'Cat.jpg', 'JanuszMalpa.png', 'Hitler.jpg'}) 
+ 2**n time execution: 0.04, n**2 time execution 0.04 
+ === Test 34 Amount of memes 13 === : 
+ usb_size = 0 memes = [('sad_frog.jpg', 480, 4), ('FranceWar.png', 9, 16), ('Urban.png', 90, 8), ('pride.jpg', 19, 17), ('Tesla.png', 407, 13), ('AndrzejDuda.png', 408, 10), ('skocznia.png', 194, 16), ('Nosacz.png', 248, 0), ('PoczujWSobieSileLwa.png', 438, 7), ('AsterixObelix.png', 46, 14), ('sad_pepe.png', 404, 12), ('Hitler.jpg', 333, 15), ('AmericaOil.jpg', 107, 20)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.08, n**2 time execution 0.01 
+ === Test 35 Amount of memes 14 === : 
+ usb_size = 0 memes = [('metamorphosis.png', 168, 12), ('AsterixObelix.png', 411, 19), ("It's Over 9000.jpeg", 164, 8), ('Tesla.png', 183, 16), ('Nazi.png', 387, 6), ('AmericaOil.jpg', 35, 9), ('JanKazimierz.png', 169, 10), ('Mussolini.jpg', 403, 8), ('WaznaWiadomosc.avi', 298, 9), ('footballMessi.png', 110, 3), ('Nosacz.png', 247, 12), ('AndrzejDuda.png', 35, 20), ('PolandIntoSpace.jpg', 451, 2), ('Hitler.jpg', 92, 0)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.18, n**2 time execution 0.01 
+ === Test 36 Amount of memes 2 === : 
+ usb_size = 2 memes = [('Mao.png', 283, 19), ('Nazi.png', 33, 0)] 
+ Expected: (19, {'Mao.png'}) 
+ Got: (19, {'Mao.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 37 Amount of memes 14 === : 
+ usb_size = 0 memes = [('skocznia.png', 153, 4), ('LewNieSprzymierzaSieZKojotem.avi', 453, 10), ('JanKazimierz.png', 136, 7), ('Dog.png', 164, 1), ('footballMessi.png', 39, 14), ('Nazi.png', 317, 3), ('Nosacz.png', 112, 12), ('Stalin.png', 415, 14), ('AndrzejDuda.png', 138, 13), ('Chernobyl.jpg', 253, 17), ('Spongebob.png', 278, 2), ('hanuszka.png', 248, 20), ('Tesla.png', 35, 18), ('sad_pepe.png', 415, 11)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.19, n**2 time execution 0.01 
+ === Test 38 Amount of memes 3 === : 
+ usb_size = 3 memes = [('sad_frog.jpg', 308, 19), ('HiszpanskaInkwizycja.png', 72, 16), ('AsterixObelix.png', 398, 4)] 
+ Expected: (39, {'HiszpanskaInkwizycja.png', 'AsterixObelix.png', 'sad_frog.jpg'}) 
+ Got: (39, {'HiszpanskaInkwizycja.png', 'AsterixObelix.png', 'sad_frog.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 39 Amount of memes 13 === : 
+ usb_size = 3 memes = [('PoczujWSobieSileLwa.png', 90, 5), ('Spongebob.png', 240, 15), ('Tesla.png', 41, 18), ('Cat.jpg', 227, 3), ('Chernobyl.jpg', 275, 2), ('footballMessi.png', 261, 14), ('FranceWar.png', 470, 13), ('pride.jpg', 367, 1), ('Mao.png', 145, 10), ('metamorphosis.png', 470, 15), ('Hitler.jpg', 398, 14), ('Dog.png', 309, 1), ('AsterixObelix.png', 216, 1)] 
+ Expected: (110, {'Spongebob.png', 'Tesla.png', 'FranceWar.png', 'metamorphosis.png', 'Mao.png', 'Chernobyl.jpg', 'Cat.jpg', 'Hitler.jpg', 'PoczujWSobieSileLwa.png', 'pride.jpg', 'footballMessi.png'}) 
+ Got: (110, {'Spongebob.png', 'FranceWar.png', 'Tesla.png', 'metamorphosis.png', 'Chernobyl.jpg', 'AsterixObelix.png', 'Cat.jpg', 'Hitler.jpg', 'PoczujWSobieSileLwa.png', 'Mao.png', 'footballMessi.png'}) 
+ 2**n time execution: 0.09, n**2 time execution 0.06 
+ === Test 40 Amount of memes 6 === : 
+ usb_size = 3 memes = [('metamorphosis.png', 50, 4), ('NaWalbrzych.avi', 435, 2), ('Nazi.png', 293, 5), ('Cat.jpg', 160, 4), ('HiszpanskaInkwizycja.png', 420, 12), ('FranceWar.png', 147, 4)] 
+ Expected: (31, {'HiszpanskaInkwizycja.png', 'Nazi.png', 'metamorphosis.png', 'FranceWar.png', 'Cat.jpg', 'NaWalbrzych.avi'}) 
+ Got: (31, {'HiszpanskaInkwizycja.png', 'Nazi.png', 'metamorphosis.png', 'FranceWar.png', 'Cat.jpg', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 41 Amount of memes 11 === : 
+ usb_size = 2 memes = [('Mussolini.jpg', 238, 19), ('Dog.png', 448, 4), ('Tesla.png', 378, 3), ('Spongebob.png', 194, 13), ('PoczujWSobieSileLwa.png', 213, 10), ('HiszpanskaInkwizycja.png', 157, 14), ('sad_frog.jpg', 410, 7), ('WaznaWiadomosc.avi', 141, 2), ("It's Over 9000.jpeg", 343, 2), ('Cat.jpg', 1, 13), ('FranceWar.png', 486, 8)] 
+ Expected: (86, {'HiszpanskaInkwizycja.png', 'Spongebob.png', 'WaznaWiadomosc.avi', 'FranceWar.png', 'Cat.jpg', 'sad_frog.jpg', 'PoczujWSobieSileLwa.png', 'Mussolini.jpg'}) 
+ Got: (86, {'HiszpanskaInkwizycja.png', 'Spongebob.png', 'WaznaWiadomosc.avi', 'FranceWar.png', 'Cat.jpg', 'sad_frog.jpg', 'PoczujWSobieSileLwa.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.02, n**2 time execution 0.04 
+ === Test 42 Amount of memes 20 === : 
+ usb_size = 3 memes = [('skocznia.png', 250, 14), ("It's Over 9000.jpeg", 155, 14), ('Urban.png', 463, 6), ('WaznaWiadomosc.avi', 164, 1), ('Hitler.jpg', 53, 7), ('Tesla.png', 242, 19), ('JanKazimierz.png', 206, 4), ('metamorphosis.png', 495, 19), ('DziwniCiRzymianie.png', 347, 2), ('LewNieSprzymierzaSieZKojotem.avi', 479, 4), ('NaWalbrzych.avi', 118, 10), ('Dog.png', 364, 12), ('AmericaOil.jpg', 66, 6), ('Cat.jpg', 483, 8), ('pride.jpg', 290, 10), ('Mao.png', 499, 3), ('Stalin.png', 295, 8), ('Chernobyl.jpg', 269, 3), ('Nosacz.png', 373, 20), ('Smolensk.png', 263, 15)] 
+ Expected: (154, {'skocznia.png', 'Smolensk.png', 'Tesla.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'Nosacz.png', 'Stalin.png', 'Hitler.jpg', 'Dog.png', 'NaWalbrzych.avi', 'pride.jpg', 'AmericaOil.jpg'}) 
+ Got: (154, {'skocznia.png', 'Smolensk.png', 'Tesla.png', "It's Over 9000.jpeg", 'metamorphosis.png', 'Nosacz.png', 'Stalin.png', 'Hitler.jpg', 'Dog.png', 'NaWalbrzych.avi', 'pride.jpg', 'AmericaOil.jpg'}) 
+ 2**n time execution: 18.58, n**2 time execution 0.14 
+ === Test 43 Amount of memes 6 === : 
+ usb_size = 1 memes = [('RickMorty.png', 174, 8), ('Mussolini.jpg', 408, 0), ('Nosacz.png', 182, 7), ('JanKazimierz.png', 425, 2), ('sad_pepe.png', 103, 7), ('pride.jpg', 87, 20)] 
+ Expected: (44, {'JanKazimierz.png', 'sad_pepe.png', 'Nosacz.png', 'RickMorty.png', 'pride.jpg'}) 
+ Got: (44, {'JanKazimierz.png', 'sad_pepe.png', 'Nosacz.png', 'RickMorty.png', 'pride.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 44 Amount of memes 18 === : 
+ usb_size = 0 memes = [('AmericaOil.jpg', 217, 9), ('AsterixObelix.png', 156, 16), ('metamorphosis.png', 435, 6), ('Smolensk.png', 429, 9), ('NaWalbrzych.avi', 128, 13), ('WaznaWiadomosc.avi', 353, 11), ('Stalin.png', 397, 20), ('pride.jpg', 74, 2), ('Tesla.png', 136, 0), ('LewNieSprzymierzaSieZKojotem.avi', 18, 19), ('sad_pepe.png', 26, 1), ("It's Over 9000.jpeg", 33, 7), ('Mussolini.jpg', 196, 0), ('Chernobyl.jpg', 451, 19), ('PoczujWSobieSileLwa.png', 273, 19), ('AndrzejDuda.png', 471, 20), ('Nazi.png', 135, 20), ('HiszpanskaInkwizycja.png', 420, 17)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 4.04, n**2 time execution 0.01 
+ === Test 45 Amount of memes 6 === : 
+ usb_size = 3 memes = [('Nosacz.png', 76, 4), ('FranceWar.png', 415, 5), ('Nazi.png', 57, 20), ('skocznia.png', 241, 3), ('Mao.png', 439, 9), ('sad_pepe.png', 416, 18)] 
+ Expected: (59, {'skocznia.png', 'Nazi.png', 'sad_pepe.png', 'FranceWar.png', 'Nosacz.png', 'Mao.png'}) 
+ Got: (59, {'skocznia.png', 'Nazi.png', 'sad_pepe.png', 'FranceWar.png', 'Nosacz.png', 'Mao.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 46 Amount of memes 14 === : 
+ usb_size = 1 memes = [('Hitler.jpg', 45, 6), ('Chernobyl.jpg', 267, 4), ('metamorphosis.png', 32, 4), ('PolandIntoSpace.jpg', 423, 1), ('skocznia.png', 114, 2), ('Smolensk.png', 27, 14), ('Urban.png', 138, 11), ('Mussolini.jpg', 253, 17), ('WaznaWiadomosc.avi', 89, 16), ('sad_pepe.png', 336, 3), ('Mao.png', 126, 15), ('Stalin.png', 231, 9), ('sad_frog.jpg', 482, 17), ('NaWalbrzych.avi', 293, 20)] 
+ Expected: (103, {'Smolensk.png', 'Urban.png', 'metamorphosis.png', 'WaznaWiadomosc.avi', 'Hitler.jpg', 'NaWalbrzych.avi', 'Mao.png', 'Mussolini.jpg'}) 
+ Got: (103, {'Smolensk.png', 'Urban.png', 'metamorphosis.png', 'WaznaWiadomosc.avi', 'Hitler.jpg', 'NaWalbrzych.avi', 'Mao.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.18, n**2 time execution 0.03 
+ === Test 47 Amount of memes 13 === : 
+ usb_size = 1 memes = [('metamorphosis.png', 99, 12), ('hanuszka.png', 8, 7), ('NaWalbrzych.avi', 290, 5), ('Stalin.png', 147, 0), ('AndrzejDuda.png', 117, 10), ('Smolensk.png', 97, 13), ('PolandIntoSpace.jpg', 332, 20), ('HiszpanskaInkwizycja.png', 61, 5), ('DziwniCiRzymianie.png', 298, 17), ('Tesla.png', 497, 0), ('Cat.jpg', 298, 5), ('AmericaOil.jpg', 290, 12), ('sad_frog.jpg', 402, 5)] 
+ Expected: (84, {'HiszpanskaInkwizycja.png', 'Smolensk.png', 'PolandIntoSpace.jpg', 'AndrzejDuda.png', 'metamorphosis.png', 'DziwniCiRzymianie.png', 'hanuszka.png'}) 
+ Got: (84, {'HiszpanskaInkwizycja.png', 'Smolensk.png', 'PolandIntoSpace.jpg', 'AndrzejDuda.png', 'metamorphosis.png', 'DziwniCiRzymianie.png', 'hanuszka.png'}) 
+ 2**n time execution: 0.09, n**2 time execution 0.02 
+ === Test 48 Amount of memes 12 === : 
+ usb_size = 3 memes = [('Mao.png', 78, 3), ('Nosacz.png', 451, 5), ('Hitler.jpg', 381, 12), ('Stalin.png', 113, 17), ('AsterixObelix.png', 198, 7), ('skocznia.png', 176, 4), ('pride.jpg', 447, 5), ('RickMorty.png', 226, 13), ('Nazi.png', 497, 5), ('metamorphosis.png', 87, 3), ('HiszpanskaInkwizycja.png', 394, 10), ("It's Over 9000.jpeg", 93, 19)] 
+ Expected: (100, {'skocznia.png', 'HiszpanskaInkwizycja.png', 'Nazi.png', "It's Over 9000.jpeg", 'Nosacz.png', 'AsterixObelix.png', 'Stalin.png', 'Hitler.jpg', 'RickMorty.png', 'Mao.png', 'pride.jpg'}) 
+ Got: (100, {'skocznia.png', 'HiszpanskaInkwizycja.png', 'Nazi.png', "It's Over 9000.jpeg", 'Nosacz.png', 'AsterixObelix.png', 'Stalin.png', 'Hitler.jpg', 'RickMorty.png', 'Mao.png', 'pride.jpg'}) 
+ 2**n time execution: 0.04, n**2 time execution 0.05 
+ === Test 49 Amount of memes 11 === : 
+ usb_size = 3 memes = [('Dog.png', 101, 18), ('footballMessi.png', 66, 0), ('FranceWar.png', 361, 15), ("It's Over 9000.jpeg", 23, 3), ('Smolensk.png', 45, 13), ('RickMorty.png', 35, 13), ('JanKazimierz.png', 417, 10), ('HiszpanskaInkwizycja.png', 431, 7), ('PoczujWSobieSileLwa.png', 368, 18), ('AndrzejDuda.png', 280, 20), ('pride.jpg', 180, 18)] 
+ Expected: (135, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'Smolensk.png', "It's Over 9000.jpeg", 'FranceWar.png', 'AndrzejDuda.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'pride.jpg'}) 
+ Got: (135, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'Smolensk.png', 'FranceWar.png', "It's Over 9000.jpeg", 'AndrzejDuda.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'pride.jpg'}) 
+ 2**n time execution: 0.02, n**2 time execution 0.04 
+ === Test 50 Amount of memes 15 === : 
+ usb_size = 3 memes = [('sad_pepe.png', 263, 11), ('Spongebob.png', 106, 19), ('Mao.png', 169, 5), ('AsterixObelix.png', 239, 0), ('AndrzejDuda.png', 78, 0), ('Nosacz.png', 413, 14), ('RickMorty.png', 222, 10), ('WaznaWiadomosc.avi', 481, 7), ('FranceWar.png', 175, 2), ('Dog.png', 298, 10), ('JanKazimierz.png', 234, 19), ('HiszpanskaInkwizycja.png', 367, 8), ("It's Over 9000.jpeg", 477, 16), ('NaWalbrzych.avi', 486, 8), ('PoczujWSobieSileLwa.png', 338, 16)] 
+ Expected: (130, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'Spongebob.png', 'sad_pepe.png', 'FranceWar.png', "It's Over 9000.jpeg", 'Nosacz.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'Mao.png'}) 
+ Got: (130, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'sad_pepe.png', 'Spongebob.png', 'FranceWar.png', "It's Over 9000.jpeg", 'Nosacz.png', 'Dog.png', 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'Mao.png'}) 
+ 2**n time execution: 0.39, n**2 time execution 0.11 
+ === Test 51 Amount of memes 17 === : 
+ usb_size = 2 memes = [('Mao.png', 32, 8), ('WaznaWiadomosc.avi', 349, 12), ('FranceWar.png', 270, 13), ("It's Over 9000.jpeg", 475, 9), ('JanuszMalpa.png', 38, 6), ('hanuszka.png', 444, 8), ('Dog.png', 347, 16), ('Nosacz.png', 436, 7), ('DziwniCiRzymianie.png', 298, 1), ('PolandIntoSpace.jpg', 477, 9), ('Chernobyl.jpg', 444, 14), ('Stalin.png', 131, 1), ('Nazi.png', 402, 0), ('NaWalbrzych.avi', 479, 12), ('Urban.png', 469, 4), ('Hitler.jpg', 217, 15), ('sad_pepe.png', 158, 20)] 
+ Expected: (105, {'sad_pepe.png', 'FranceWar.png', 'WaznaWiadomosc.avi', 'Chernobyl.jpg', 'Stalin.png', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'Mao.png'}) 
+ Got: (105, {'sad_pepe.png', 'FranceWar.png', 'WaznaWiadomosc.avi', 'Chernobyl.jpg', 'Stalin.png', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'Mao.png'}) 
+ 2**n time execution: 1.84, n**2 time execution 0.06 
+ === Test 52 Amount of memes 2 === : 
+ usb_size = 3 memes = [('DziwniCiRzymianie.png', 393, 16), ('hanuszka.png', 83, 0)] 
+ Expected: (16, {'DziwniCiRzymianie.png'}) 
+ Got: (16, {'DziwniCiRzymianie.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 53 Amount of memes 4 === : 
+ usb_size = 3 memes = [('sad_frog.jpg', 232, 12), ('metamorphosis.png', 444, 15), ('WaznaWiadomosc.avi', 291, 6), ('Nazi.png', 169, 4)] 
+ Expected: (37, {'Nazi.png', 'WaznaWiadomosc.avi', 'metamorphosis.png', 'sad_frog.jpg'}) 
+ Got: (37, {'Nazi.png', 'sad_frog.jpg', 'metamorphosis.png', 'WaznaWiadomosc.avi'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 54 Amount of memes 6 === : 
+ usb_size = 0 memes = [('WaznaWiadomosc.avi', 24, 6), ('FranceWar.png', 488, 11), ('NaWalbrzych.avi', 146, 3), ('metamorphosis.png', 102, 4), ('Mussolini.jpg', 427, 16), ('sad_pepe.png', 20, 20)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 55 Amount of memes 3 === : 
+ usb_size = 1 memes = [('sad_pepe.png', 282, 13), ('Spongebob.png', 60, 13), ('pride.jpg', 80, 11)] 
+ Expected: (37, {'pride.jpg', 'Spongebob.png', 'sad_pepe.png'}) 
+ Got: (37, {'pride.jpg', 'Spongebob.png', 'sad_pepe.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 56 Amount of memes 5 === : 
+ usb_size = 3 memes = [('Urban.png', 380, 9), ('Mussolini.jpg', 483, 15), ('LewNieSprzymierzaSieZKojotem.avi', 496, 2), ('DziwniCiRzymianie.png', 236, 1), ('PolandIntoSpace.jpg', 406, 17)] 
+ Expected: (44, {'PolandIntoSpace.jpg', 'Urban.png', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'Mussolini.jpg'}) 
+ Got: (44, {'PolandIntoSpace.jpg', 'Urban.png', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 57 Amount of memes 17 === : 
+ usb_size = 3 memes = [('Cat.jpg', 152, 17), ('Urban.png', 336, 4), ('JanKazimierz.png', 480, 12), ('AndrzejDuda.png', 89, 12), ('WaznaWiadomosc.avi', 326, 20), ('Hitler.jpg', 34, 6), ('Nosacz.png', 192, 6), ('sad_pepe.png', 430, 8), ('NaWalbrzych.avi', 37, 2), ('PolandIntoSpace.jpg', 410, 8), ('Mussolini.jpg', 401, 4), ('HiszpanskaInkwizycja.png', 109, 16), ('Stalin.png', 50, 13), ('Spongebob.png', 377, 16), ('skocznia.png', 420, 19), ('Dog.png', 206, 0), ('Nazi.png', 256, 5)] 
+ Expected: (153, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'skocznia.png', 'PolandIntoSpace.jpg', 'sad_pepe.png', 'WaznaWiadomosc.avi', 'AndrzejDuda.png', 'Spongebob.png', 'Nosacz.png', 'Cat.jpg', 'Stalin.png', 'Hitler.jpg'}) 
+ Got: (153, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'skocznia.png', 'PolandIntoSpace.jpg', 'sad_pepe.png', 'AndrzejDuda.png', 'WaznaWiadomosc.avi', 'Spongebob.png', 'Nosacz.png', 'Cat.jpg', 'Stalin.png', 'Hitler.jpg'}) 
+ 2**n time execution: 1.84, n**2 time execution 0.11 
+ === Test 58 Amount of memes 3 === : 
+ usb_size = 0 memes = [('Cat.jpg', 194, 19), ('metamorphosis.png', 434, 7), ('Tesla.png', 470, 12)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 59 Amount of memes 5 === : 
+ usb_size = 2 memes = [('Nosacz.png', 184, 6), ('LewNieSprzymierzaSieZKojotem.avi', 151, 13), ('FranceWar.png', 75, 14), ('Mussolini.jpg', 48, 10), ('Tesla.png', 383, 3)] 
+ Expected: (46, {'Tesla.png', 'FranceWar.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Nosacz.png', 'Mussolini.jpg'}) 
+ Got: (46, {'Tesla.png', 'FranceWar.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Nosacz.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 60 Amount of memes 9 === : 
+ usb_size = 0 memes = [('skocznia.png', 183, 18), ('AmericaOil.jpg', 83, 20), ('sad_frog.jpg', 110, 13), ('Tesla.png', 352, 2), ('NaWalbrzych.avi', 26, 20), ('metamorphosis.png', 152, 13), ('AsterixObelix.png', 348, 2), ('Urban.png', 259, 4), ('Mao.png', 362, 19)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
  === Test 61 Amount of memes 1 === : 
- Expected: (7, {'skocznia.png'}) 
- Got: (7, {'skocznia.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.0 
- === Test 62 Amount of memes 8 === : 
- Expected: (80, {'Hitler.jpg', 'Mussolini.jpg', 'footballMessi.png', 'Chernobyl.jpg', 'Stalin.png'}) 
- Got: (80, {'Hitler.jpg', 'Mussolini.jpg', 'footballMessi.png', 'Chernobyl.jpg', 'Stalin.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 63 Amount of memes 9 === : 
- Expected: (30, {'Cat.jpg', 'WaznaWiadomosc.avi'}) 
- Got: (30, {'Cat.jpg', 'WaznaWiadomosc.avi'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 64 Amount of memes 17 === : 
- Expected: (41, {'Hitler.jpg', "It's Over 9000.jpeg", 'PoczujWSobieSileLwa.png'}) 
- Got: (41, {'Hitler.jpg', "It's Over 9000.jpeg", 'PoczujWSobieSileLwa.png'}) 
- 2**n time execution: 1.56, n**2 time execution 0.03 
- === Test 65 Amount of memes 11 === : 
- Expected: (77, {'metamorphosis.png', 'skocznia.png', 'NaWalbrzych.avi', 'Dog.png', 'pride.jpg', 'PolandIntoSpace.jpg'}) 
- Got: (77, {'metamorphosis.png', 'skocznia.png', 'NaWalbrzych.avi', 'AndrzejDuda.png', 'pride.jpg', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 66 Amount of memes 6 === : 
+ usb_size = 0 memes = [('Smolensk.png', 227, 18)] 
  Expected: (0, {'TestMeme'}) 
  Got: (0, set()) 
- 2**n time execution: 0.0, n**2 time execution 0.0 
- === Test 67 Amount of memes 19 === : 
- Expected: (49, {'sad_pepe.png', 'Stalin.png', 'footballMessi.png'}) 
- Got: (49, {'sad_pepe.png', 'Stalin.png', 'footballMessi.png'}) 
- 2**n time execution: 7.7, n**2 time execution 0.03 
- === Test 68 Amount of memes 8 === : 
- Expected: (72, {'sad_pepe.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'footballMessi.png', 'Urban.png'}) 
- Got: (72, {'sad_pepe.png', 'AsterixObelix.png', 'JanuszMalpa.png', 'footballMessi.png', 'Urban.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 69 Amount of memes 4 === : 
- Expected: (30, {'pride.jpg', 'hanuszka.png', 'AsterixObelix.png', 'JanKazimierz.png'}) 
- Got: (30, {'pride.jpg', 'hanuszka.png', 'AsterixObelix.png', 'JanKazimierz.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 70 Amount of memes 5 === : 
- Expected: (59, {'hanuszka.png', 'Mao.png', 'AndrzejDuda.png', 'Smolensk.png'}) 
- Got: (59, {'hanuszka.png', 'Mao.png', 'footballMessi.png', 'AndrzejDuda.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 71 Amount of memes 15 === : 
- Expected: (99, {'hanuszka.png', 'Mao.png', 'DziwniCiRzymianie.png', 'AsterixObelix.png', 'NaWalbrzych.avi', 'AmericaOil.jpg', 'PolandIntoSpace.jpg'}) 
- Got: (99, {'hanuszka.png', 'Mao.png', 'DziwniCiRzymianie.png', 'AsterixObelix.png', 'NaWalbrzych.avi', 'AmericaOil.jpg', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.34, n**2 time execution 0.12 
- === Test 72 Amount of memes 12 === : 
- Expected: (98, {'WaznaWiadomosc.avi', 'NaWalbrzych.avi', 'JanKazimierz.png', 'pride.jpg', 'Stalin.png', 'Spongebob.png'}) 
- Got: (98, {'WaznaWiadomosc.avi', 'NaWalbrzych.avi', 'JanKazimierz.png', 'pride.jpg', 'Stalin.png', 'Spongebob.png'}) 
- 2**n time execution: 0.03, n**2 time execution 0.13 
- === Test 73 Amount of memes 13 === : 
- Expected: (84, {'Hitler.jpg', 'FranceWar.png', 'Tesla.png', 'Dog.png', 'Urban.png', 'Chernobyl.jpg'}) 
- Got: (84, {'Hitler.jpg', 'FranceWar.png', 'Tesla.png', 'Dog.png', 'Urban.png', 'Chernobyl.jpg'}) 
- 2**n time execution: 0.08, n**2 time execution 0.04 
- === Test 74 Amount of memes 10 === : 
- Expected: (89, {'metamorphosis.png', 'sad_pepe.png', 'Cat.jpg', 'HiszpanskaInkwizycja.png', 'AsterixObelix.png', "It's Over 9000.jpeg"}) 
- Got: (89, {'metamorphosis.png', 'sad_pepe.png', 'Cat.jpg', 'HiszpanskaInkwizycja.png', 'AsterixObelix.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 0.02, n**2 time execution 0.11 
- === Test 75 Amount of memes 20 === : 
- Expected: (100, {'Hitler.jpg', 'Mao.png', 'WaznaWiadomosc.avi', 'HiszpanskaInkwizycja.png', 'Smolensk.png', 'NaWalbrzych.avi', 'footballMessi.png', 'AmericaOil.jpg'}) 
- Got: (100, {'Hitler.jpg', 'Mao.png', 'WaznaWiadomosc.avi', 'HiszpanskaInkwizycja.png', 'Smolensk.png', 'NaWalbrzych.avi', 'footballMessi.png', 'AmericaOil.jpg'}) 
- 2**n time execution: 16.45, n**2 time execution 0.11 
- === Test 76 Amount of memes 1 === : 
- Expected: (6, {'DziwniCiRzymianie.png'}) 
- Got: (6, {'DziwniCiRzymianie.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 62 Amount of memes 5 === : 
+ usb_size = 2 memes = [('Spongebob.png', 263, 5), ("It's Over 9000.jpeg", 174, 18), ('HiszpanskaInkwizycja.png', 422, 14), ('footballMessi.png', 43, 6), ('metamorphosis.png', 465, 19)] 
+ Expected: (62, {'HiszpanskaInkwizycja.png', 'Spongebob.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'footballMessi.png'}) 
+ Got: (62, {'HiszpanskaInkwizycja.png', 'Spongebob.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'footballMessi.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 77 Amount of memes 4 === : 
- Expected: (11, {'PolandIntoSpace.jpg'}) 
- Got: (11, {'PolandIntoSpace.jpg'}) 
+ === Test 63 Amount of memes 6 === : 
+ usb_size = 1 memes = [('Tesla.png', 146, 13), ('footballMessi.png', 101, 3), ('Cat.jpg', 58, 0), ('HiszpanskaInkwizycja.png', 208, 20), ('JanKazimierz.png', 491, 9), ('metamorphosis.png', 85, 5)] 
+ Expected: (47, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'Tesla.png', 'metamorphosis.png'}) 
+ Got: (47, {'HiszpanskaInkwizycja.png', 'JanKazimierz.png', 'Tesla.png', 'metamorphosis.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 64 Amount of memes 10 === : 
+ usb_size = 0 memes = [('sad_pepe.png', 433, 18), ('Hitler.jpg', 157, 18), ('Stalin.png', 265, 20), ('Mao.png', 26, 13), ('Chernobyl.jpg', 290, 2), ('RickMorty.png', 3, 0), ('PoczujWSobieSileLwa.png', 69, 10), ('AsterixObelix.png', 107, 10), ('hanuszka.png', 342, 17), ('footballMessi.png', 299, 13)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.01, n**2 time execution 0.02 
+ === Test 65 Amount of memes 20 === : 
+ usb_size = 3 memes = [('Nazi.png', 428, 20), ('Spongebob.png', 409, 0), ('AndrzejDuda.png', 239, 13), ('Hitler.jpg', 138, 16), ('PolandIntoSpace.jpg', 428, 7), ('Urban.png', 190, 4), ('DziwniCiRzymianie.png', 100, 9), ('sad_pepe.png', 412, 20), ('AsterixObelix.png', 449, 8), ('JanKazimierz.png', 34, 8), ('skocznia.png', 345, 11), ('JanuszMalpa.png', 406, 8), ('sad_frog.jpg', 497, 1), ('Dog.png', 339, 19), ('HiszpanskaInkwizycja.png', 317, 16), ('metamorphosis.png', 128, 8), ('Mussolini.jpg', 22, 10), ('WaznaWiadomosc.avi', 434, 0), ("It's Over 9000.jpeg", 465, 18), ('LewNieSprzymierzaSieZKojotem.avi', 209, 3)] 
+ Expected: (168, {'skocznia.png', 'JanKazimierz.png', 'Nazi.png', 'HiszpanskaInkwizycja.png', 'sad_pepe.png', 'AndrzejDuda.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'DziwniCiRzymianie.png', 'Hitler.jpg', 'Dog.png', 'Mussolini.jpg'}) 
+ Got: (168, {'skocznia.png', 'JanKazimierz.png', 'Nazi.png', 'HiszpanskaInkwizycja.png', 'sad_pepe.png', 'AndrzejDuda.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'DziwniCiRzymianie.png', 'Hitler.jpg', 'Dog.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 18.43, n**2 time execution 0.13 
+ === Test 66 Amount of memes 15 === : 
+ usb_size = 2 memes = [('Mussolini.jpg', 75, 2), ('FranceWar.png', 174, 20), ('PoczujWSobieSileLwa.png', 452, 10), ('Nosacz.png', 247, 5), ('Stalin.png', 459, 19), ('NaWalbrzych.avi', 395, 16), ('Spongebob.png', 220, 16), ('PolandIntoSpace.jpg', 412, 3), ('AsterixObelix.png', 158, 4), ('JanuszMalpa.png', 252, 10), ('hanuszka.png', 206, 2), ('WaznaWiadomosc.avi', 97, 10), ('skocznia.png', 373, 1), ('sad_frog.jpg', 149, 7), ('Hitler.jpg', 149, 4)] 
+ Expected: (104, {'Spongebob.png', 'FranceWar.png', 'WaznaWiadomosc.avi', 'AsterixObelix.png', 'Stalin.png', 'sad_frog.jpg', 'JanuszMalpa.png', 'NaWalbrzych.avi', 'Mussolini.jpg'}) 
+ Got: (104, {'Spongebob.png', 'FranceWar.png', 'WaznaWiadomosc.avi', 'Stalin.png', 'sad_frog.jpg', 'JanuszMalpa.png', 'Hitler.jpg', 'NaWalbrzych.avi', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.4, n**2 time execution 0.05 
+ === Test 67 Amount of memes 14 === : 
+ usb_size = 1 memes = [('Stalin.png', 490, 1), ('Tesla.png', 444, 20), ('Chernobyl.jpg', 262, 12), ('WaznaWiadomosc.avi', 500, 13), ('JanKazimierz.png', 472, 20), ('Cat.jpg', 137, 6), ('Mao.png', 120, 8), ('JanuszMalpa.png', 433, 10), ('Dog.png', 413, 6), ('footballMessi.png', 427, 14), ('Urban.png', 414, 12), ('DziwniCiRzymianie.png', 339, 16), ('AmericaOil.jpg', 404, 5), ('hanuszka.png', 58, 12)] 
+ Expected: (58, {'Tesla.png', 'Mao.png', 'Chernobyl.jpg', 'Cat.jpg', 'hanuszka.png'}) 
+ Got: (58, {'Tesla.png', 'hanuszka.png', 'Chernobyl.jpg', 'Cat.jpg', 'Mao.png'}) 
+ 2**n time execution: 0.18, n**2 time execution 0.02 
+ === Test 68 Amount of memes 2 === : 
+ usb_size = 3 memes = [('Dog.png', 472, 8), ('sad_frog.jpg', 86, 14)] 
+ Expected: (22, {'Dog.png', 'sad_frog.jpg'}) 
+ Got: (22, {'Dog.png', 'sad_frog.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 69 Amount of memes 1 === : 
+ usb_size = 2 memes = [('pride.jpg', 232, 15)] 
+ Expected: (15, {'pride.jpg'}) 
+ Got: (15, {'pride.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 70 Amount of memes 12 === : 
+ usb_size = 2 memes = [('Stalin.png', 11, 9), ('Mao.png', 11, 6), ('Nazi.png', 73, 17), ('Mussolini.jpg', 308, 2), ("It's Over 9000.jpeg", 142, 15), ('Chernobyl.jpg', 359, 18), ('skocznia.png', 447, 0), ('Smolensk.png', 347, 1), ('Spongebob.png', 280, 6), ('sad_frog.jpg', 272, 9), ('hanuszka.png', 381, 6), ('sad_pepe.png', 417, 13)] 
+ Expected: (99, {'Nazi.png', 'Spongebob.png', "It's Over 9000.jpeg", 'sad_pepe.png', 'hanuszka.png', 'Chernobyl.jpg', 'Stalin.png', 'sad_frog.jpg', 'Mao.png'}) 
+ Got: (99, {'Nazi.png', 'Spongebob.png', "It's Over 9000.jpeg", 'sad_pepe.png', 'Mao.png', 'Chernobyl.jpg', 'Stalin.png', 'sad_frog.jpg', 'hanuszka.png'}) 
+ 2**n time execution: 0.04, n**2 time execution 0.04 
+ === Test 71 Amount of memes 18 === : 
+ usb_size = 2 memes = [('NaWalbrzych.avi', 340, 11), ('LewNieSprzymierzaSieZKojotem.avi', 318, 14), ('skocznia.png', 55, 6), ('Hitler.jpg', 4, 19), ('Mao.png', 322, 3), ("It's Over 9000.jpeg", 197, 14), ('HiszpanskaInkwizycja.png', 322, 0), ('Dog.png', 239, 6), ('Nazi.png', 223, 13), ('JanKazimierz.png', 492, 4), ('Spongebob.png', 118, 8), ('footballMessi.png', 162, 6), ('sad_frog.jpg', 387, 4), ('JanuszMalpa.png', 37, 18), ('hanuszka.png', 98, 9), ('PoczujWSobieSileLwa.png', 335, 14), ('RickMorty.png', 242, 2), ('Stalin.png', 295, 13)] 
+ Expected: (139, {'skocznia.png', 'Nazi.png', 'Spongebob.png', "It's Over 9000.jpeg", 'LewNieSprzymierzaSieZKojotem.avi', 'Stalin.png', 'JanuszMalpa.png', 'Hitler.jpg', 'NaWalbrzych.avi', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ Got: (139, {'skocznia.png', 'Nazi.png', 'Spongebob.png', "It's Over 9000.jpeg", 'LewNieSprzymierzaSieZKojotem.avi', 'Stalin.png', 'JanuszMalpa.png', 'Hitler.jpg', 'NaWalbrzych.avi', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ 2**n time execution: 4.06, n**2 time execution 0.11 
+ === Test 72 Amount of memes 5 === : 
+ usb_size = 1 memes = [('DziwniCiRzymianie.png', 345, 9), ('AsterixObelix.png', 171, 13), ('skocznia.png', 381, 12), ('Tesla.png', 385, 17), ('PolandIntoSpace.jpg', 433, 14)] 
+ Expected: (44, {'PolandIntoSpace.jpg', 'AsterixObelix.png', 'Tesla.png'}) 
+ Got: (44, {'PolandIntoSpace.jpg', 'AsterixObelix.png', 'Tesla.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 73 Amount of memes 3 === : 
+ usb_size = 2 memes = [('DziwniCiRzymianie.png', 273, 4), ('sad_frog.jpg', 311, 1), ('FranceWar.png', 109, 5)] 
+ Expected: (10, {'FranceWar.png', 'DziwniCiRzymianie.png', 'sad_frog.jpg'}) 
+ Got: (10, {'FranceWar.png', 'DziwniCiRzymianie.png', 'sad_frog.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
+ === Test 74 Amount of memes 16 === : 
+ usb_size = 1 memes = [('Mussolini.jpg', 307, 0), ('sad_frog.jpg', 464, 7), ('Dog.png', 12, 20), ('DziwniCiRzymianie.png', 338, 1), ('hanuszka.png', 117, 9), ('AsterixObelix.png', 274, 0), ('NaWalbrzych.avi', 479, 8), ('Chernobyl.jpg', 176, 14), ('FranceWar.png', 428, 9), ('JanKazimierz.png', 235, 8), ('AmericaOil.jpg', 319, 7), ('LewNieSprzymierzaSieZKojotem.avi', 31, 9), ('Smolensk.png', 385, 7), ('AndrzejDuda.png', 297, 3), ('Spongebob.png', 81, 2), ('RickMorty.png', 157, 4)] 
+ Expected: (69, {'JanKazimierz.png', 'FranceWar.png', 'Chernobyl.jpg', 'LewNieSprzymierzaSieZKojotem.avi', 'Dog.png', 'hanuszka.png'}) 
+ Got: (69, {'JanKazimierz.png', 'Spongebob.png', 'Chernobyl.jpg', 'LewNieSprzymierzaSieZKojotem.avi', 'Dog.png', 'hanuszka.png', 'AmericaOil.jpg'}) 
+ 2**n time execution: 0.84, n**2 time execution 0.03 
+ === Test 75 Amount of memes 7 === : 
+ usb_size = 3 memes = [('Urban.png', 160, 18), ('Hitler.jpg', 158, 6), ('HiszpanskaInkwizycja.png', 426, 19), ('Stalin.png', 396, 14), ('Smolensk.png', 444, 9), ('sad_pepe.png', 70, 10), ('Mussolini.jpg', 266, 7)] 
+ Expected: (83, {'HiszpanskaInkwizycja.png', 'Smolensk.png', 'sad_pepe.png', 'Urban.png', 'Stalin.png', 'Hitler.jpg', 'Mussolini.jpg'}) 
+ Got: (83, {'HiszpanskaInkwizycja.png', 'Smolensk.png', 'sad_pepe.png', 'Urban.png', 'Stalin.png', 'Hitler.jpg', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.03 
+ === Test 76 Amount of memes 19 === : 
+ usb_size = 3 memes = [('Cat.jpg', 0, 18), ('Dog.png', 295, 1), ('RickMorty.png', 231, 9), ('WaznaWiadomosc.avi', 174, 10), ('Tesla.png', 273, 0), ('LewNieSprzymierzaSieZKojotem.avi', 398, 2), ('Urban.png', 44, 3), ('PolandIntoSpace.jpg', 388, 10), ('Chernobyl.jpg', 371, 18), ('Stalin.png', 287, 3), ('pride.jpg', 329, 5), ('FranceWar.png', 457, 10), ('Mao.png', 354, 13), ('Nosacz.png', 30, 6), ('hanuszka.png', 73, 8), ('Nazi.png', 169, 2), ('Hitler.jpg', 180, 18), ('JanuszMalpa.png', 447, 4), ("It's Over 9000.jpeg", 452, 12)] 
+ Expected: (138, {'PolandIntoSpace.jpg', 'Urban.png', 'WaznaWiadomosc.avi', 'FranceWar.png', 'hanuszka.png', 'Chernobyl.jpg', 'Nosacz.png', "It's Over 9000.jpeg", 'Cat.jpg', 'Stalin.png', 'Hitler.jpg', 'RickMorty.png', 'Mao.png'}) 
+ Got: (138, {'PolandIntoSpace.jpg', 'FranceWar.png', 'WaznaWiadomosc.avi', 'Urban.png', 'hanuszka.png', 'Chernobyl.jpg', 'Nosacz.png', "It's Over 9000.jpeg", 'Cat.jpg', 'Stalin.png', 'Hitler.jpg', 'RickMorty.png', 'Mao.png'}) 
+ 2**n time execution: 8.85, n**2 time execution 0.13 
+ === Test 77 Amount of memes 2 === : 
+ usb_size = 2 memes = [("It's Over 9000.jpeg", 306, 20), ('hanuszka.png', 36, 7)] 
+ Expected: (27, {'hanuszka.png', "It's Over 9000.jpeg"}) 
+ Got: (27, {'hanuszka.png', "It's Over 9000.jpeg"}) 
  2**n time execution: 0.0, n**2 time execution 0.01 
  === Test 78 Amount of memes 15 === : 
- Expected: (65, {'Hitler.jpg', 'JanKazimierz.png', 'Stalin.png', "It's Over 9000.jpeg", 'Spongebob.png'}) 
- Got: (65, {'Hitler.jpg', 'JanKazimierz.png', 'Stalin.png', "It's Over 9000.jpeg", 'Spongebob.png'}) 
- 2**n time execution: 0.36, n**2 time execution 0.04 
- === Test 79 Amount of memes 16 === : 
- Expected: (73, {'Hitler.jpg', 'HiszpanskaInkwizycja.png', 'RickMorty.png', 'JanKazimierz.png', 'Chernobyl.jpg', 'Stalin.png'}) 
- Got: (73, {'Hitler.jpg', 'HiszpanskaInkwizycja.png', 'RickMorty.png', 'JanKazimierz.png', 'Chernobyl.jpg', 'Stalin.png'}) 
- 2**n time execution: 0.76, n**2 time execution 0.05 
- === Test 80 Amount of memes 6 === : 
- Expected: (71, {'hanuszka.png', 'Tesla.png', 'AsterixObelix.png', 'footballMessi.png', 'Chernobyl.jpg'}) 
- Got: (71, {'hanuszka.png', 'Tesla.png', 'AsterixObelix.png', 'footballMessi.png', 'Chernobyl.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 81 Amount of memes 8 === : 
- Expected: (72, {'DziwniCiRzymianie.png', 'Dog.png', 'AndrzejDuda.png', 'Chernobyl.jpg', 'PolandIntoSpace.jpg'}) 
- Got: (72, {'DziwniCiRzymianie.png', 'Dog.png', 'AndrzejDuda.png', 'Chernobyl.jpg', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
+ usb_size = 3 memes = [('LewNieSprzymierzaSieZKojotem.avi', 203, 19), ('hanuszka.png', 397, 11), ('PoczujWSobieSileLwa.png', 215, 7), ('Dog.png', 160, 12), ('Hitler.jpg', 118, 7), ('NaWalbrzych.avi', 199, 18), ('sad_frog.jpg', 221, 1), ('Mussolini.jpg', 5, 12), ('DziwniCiRzymianie.png', 432, 5), ('JanuszMalpa.png', 154, 9), ('Tesla.png', 266, 18), ('Nazi.png', 122, 2), ('metamorphosis.png', 90, 18), ('sad_pepe.png', 446, 18), ('AmericaOil.jpg', 203, 9)] 
+ Expected: (165, {'Nazi.png', 'Tesla.png', 'metamorphosis.png', 'sad_pepe.png', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'AmericaOil.jpg', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'PoczujWSobieSileLwa.png', 'NaWalbrzych.avi', 'hanuszka.png', 'Mussolini.jpg'}) 
+ Got: (165, {'Nazi.png', 'sad_pepe.png', 'Tesla.png', 'metamorphosis.png', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'AmericaOil.jpg', 'JanuszMalpa.png', 'Hitler.jpg', 'Dog.png', 'PoczujWSobieSileLwa.png', 'NaWalbrzych.avi', 'hanuszka.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.4, n**2 time execution 0.11 
+ === Test 79 Amount of memes 10 === : 
+ usb_size = 2 memes = [('sad_pepe.png', 85, 7), ('RickMorty.png', 104, 5), ('metamorphosis.png', 392, 6), ('Smolensk.png', 137, 7), ('Nazi.png', 85, 2), ('Urban.png', 197, 8), ('sad_frog.jpg', 271, 9), ('Cat.jpg', 297, 18), ('Tesla.png', 171, 3), ('Mussolini.jpg', 121, 0)] 
+ Expected: (65, {'Smolensk.png', 'Nazi.png', 'sad_pepe.png', 'metamorphosis.png', 'Urban.png', 'Tesla.png', 'Cat.jpg', 'sad_frog.jpg', 'RickMorty.png'}) 
+ Got: (65, {'Smolensk.png', 'Nazi.png', 'sad_pepe.png', 'Urban.png', 'metamorphosis.png', 'Tesla.png', 'Cat.jpg', 'sad_frog.jpg', 'RickMorty.png'}) 
+ 2**n time execution: 0.01, n**2 time execution 0.03 
+ === Test 80 Amount of memes 16 === : 
+ usb_size = 2 memes = [('JanuszMalpa.png', 407, 17), ('WaznaWiadomosc.avi', 63, 18), ('Nosacz.png', 279, 15), ('Hitler.jpg', 237, 1), ("It's Over 9000.jpeg", 237, 11), ('Spongebob.png', 432, 13), ('Mao.png', 302, 4), ('DziwniCiRzymianie.png', 356, 9), ('Urban.png', 168, 14), ('RickMorty.png', 235, 2), ('sad_pepe.png', 197, 15), ('Smolensk.png', 497, 6), ('hanuszka.png', 149, 7), ('FranceWar.png', 122, 7), ('AndrzejDuda.png', 329, 14), ('Cat.jpg', 165, 13)] 
+ Expected: (124, {'sad_pepe.png', "It's Over 9000.jpeg", 'Urban.png', 'WaznaWiadomosc.avi', 'AndrzejDuda.png', 'Nosacz.png', 'Cat.jpg', 'JanuszMalpa.png', 'hanuszka.png'}) 
+ Got: (124, {'sad_pepe.png', 'Urban.png', 'FranceWar.png', 'WaznaWiadomosc.avi', "It's Over 9000.jpeg", 'AndrzejDuda.png', 'Nosacz.png', 'Cat.jpg', 'JanuszMalpa.png'}) 
+ 2**n time execution: 0.87, n**2 time execution 0.06 
+ === Test 81 Amount of memes 1 === : 
+ usb_size = 0 memes = [('PolandIntoSpace.jpg', 239, 11)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
  === Test 82 Amount of memes 7 === : 
- Expected: (41, {'Chernobyl.jpg', 'AndrzejDuda.png', 'AsterixObelix.png', 'RickMorty.png'}) 
- Got: (41, {'Chernobyl.jpg', 'AndrzejDuda.png', 'AsterixObelix.png', 'RickMorty.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 83 Amount of memes 7 === : 
- Expected: (12, {'sad_frog.jpg', 'Nazi.png'}) 
- Got: (12, {'sad_frog.jpg', 'Nazi.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.0 
- === Test 84 Amount of memes 5 === : 
- Expected: (52, {'DziwniCiRzymianie.png', 'sad_frog.jpg', 'skocznia.png', 'RickMorty.png', 'Stalin.png'}) 
- Got: (52, {'DziwniCiRzymianie.png', 'sad_frog.jpg', 'skocznia.png', 'RickMorty.png', 'Stalin.png'}) 
+ usb_size = 3 memes = [("It's Over 9000.jpeg", 381, 7), ('NaWalbrzych.avi', 139, 15), ('PoczujWSobieSileLwa.png', 413, 12), ('Tesla.png', 147, 13), ('Smolensk.png', 326, 6), ('RickMorty.png', 139, 11), ('Cat.jpg', 381, 4)] 
+ Expected: (68, {'Smolensk.png', 'Tesla.png', "It's Over 9000.jpeg", 'Cat.jpg', 'RickMorty.png', 'PoczujWSobieSileLwa.png', 'NaWalbrzych.avi'}) 
+ Got: (68, {'Smolensk.png', 'Tesla.png', "It's Over 9000.jpeg", 'Cat.jpg', 'RickMorty.png', 'NaWalbrzych.avi', 'PoczujWSobieSileLwa.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 85 Amount of memes 8 === : 
- Expected: (59, {'Hitler.jpg', 'Mao.png', 'Cat.jpg', 'Mussolini.jpg', 'JanuszMalpa.png', 'AndrzejDuda.png'}) 
- Got: (59, {'Hitler.jpg', 'Mao.png', 'Cat.jpg', 'Mussolini.jpg', 'JanuszMalpa.png', 'AndrzejDuda.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
+ === Test 83 Amount of memes 10 === : 
+ usb_size = 2 memes = [('Stalin.png', 479, 13), ('Mussolini.jpg', 7, 0), ('PoczujWSobieSileLwa.png', 167, 17), ('Hitler.jpg', 159, 12), ('FranceWar.png', 164, 7), ("It's Over 9000.jpeg", 182, 5), ('sad_pepe.png', 252, 7), ('Urban.png', 150, 15), ('Cat.jpg', 287, 15), ('hanuszka.png', 174, 6)] 
+ Expected: (97, {'sad_pepe.png', "It's Over 9000.jpeg", 'FranceWar.png', 'Urban.png', 'Stalin.png', 'Cat.jpg', 'Hitler.jpg', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ Got: (97, {'sad_pepe.png', "It's Over 9000.jpeg", 'FranceWar.png', 'Urban.png', 'Stalin.png', 'Cat.jpg', 'Hitler.jpg', 'PoczujWSobieSileLwa.png', 'hanuszka.png'}) 
+ 2**n time execution: 0.01, n**2 time execution 0.03 
+ === Test 84 Amount of memes 13 === : 
+ usb_size = 2 memes = [('NaWalbrzych.avi', 36, 2), ('Dog.png', 295, 17), ('Stalin.png', 340, 8), ('Nosacz.png', 467, 18), ('LewNieSprzymierzaSieZKojotem.avi', 372, 16), ('Mussolini.jpg', 240, 2), ('DziwniCiRzymianie.png', 75, 15), ('hanuszka.png', 497, 14), ('JanuszMalpa.png', 405, 13), ('Smolensk.png', 473, 4), ('Cat.jpg', 476, 16), ('HiszpanskaInkwizycja.png', 207, 15), ('AndrzejDuda.png', 65, 19)] 
+ Expected: (118, {'HiszpanskaInkwizycja.png', 'AndrzejDuda.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Cat.jpg', 'Dog.png', 'NaWalbrzych.avi'}) 
+ Got: (118, {'HiszpanskaInkwizycja.png', 'AndrzejDuda.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Cat.jpg', 'Dog.png', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 0.08, n**2 time execution 0.04 
+ === Test 85 Amount of memes 13 === : 
+ usb_size = 1 memes = [('FranceWar.png', 250, 17), ('AndrzejDuda.png', 326, 14), ('Urban.png', 346, 0), ('Smolensk.png', 336, 10), ('pride.jpg', 136, 18), ('hanuszka.png', 260, 8), ('Cat.jpg', 62, 17), ('AsterixObelix.png', 410, 11), ('NaWalbrzych.avi', 15, 15), ('DziwniCiRzymianie.png', 417, 13), ('PolandIntoSpace.jpg', 371, 18), ('LewNieSprzymierzaSieZKojotem.avi', 389, 15), ('WaznaWiadomosc.avi', 311, 20)] 
+ Expected: (88, {'PolandIntoSpace.jpg', 'WaznaWiadomosc.avi', 'Cat.jpg', 'NaWalbrzych.avi', 'pride.jpg'}) 
+ Got: (88, {'PolandIntoSpace.jpg', 'WaznaWiadomosc.avi', 'Cat.jpg', 'NaWalbrzych.avi', 'pride.jpg'}) 
+ 2**n time execution: 0.09, n**2 time execution 0.02 
  === Test 86 Amount of memes 11 === : 
- Expected: (55, {'skocznia.png', 'NaWalbrzych.avi', 'Dog.png', 'footballMessi.png', 'AndrzejDuda.png'}) 
- Got: (55, {'skocznia.png', 'NaWalbrzych.avi', 'Dog.png', 'footballMessi.png', 'AndrzejDuda.png'}) 
- 2**n time execution: 0.02, n**2 time execution 0.03 
- === Test 87 Amount of memes 16 === : 
- Expected: (100, {'Hitler.jpg', 'metamorphosis.png', 'Mao.png', 'sad_pepe.png', 'sad_frog.jpg', 'skocznia.png', 'footballMessi.png'}) 
- Got: (100, {'Hitler.jpg', 'metamorphosis.png', 'sad_pepe.png', 'sad_frog.jpg', 'skocznia.png', 'Nosacz.png', 'AsterixObelix.png'}) 
- 2**n time execution: 0.79, n**2 time execution 0.12 
+ usb_size = 1 memes = [('sad_pepe.png', 224, 10), ('AndrzejDuda.png', 458, 11), ('AsterixObelix.png', 149, 10), ('LewNieSprzymierzaSieZKojotem.avi', 442, 6), ('PoczujWSobieSileLwa.png', 463, 2), ('Nazi.png', 67, 1), ('Stalin.png', 54, 2), ('DziwniCiRzymianie.png', 393, 13), ('NaWalbrzych.avi', 21, 3), ('Mao.png', 286, 8), ('Nosacz.png', 159, 20)] 
+ Expected: (58, {'sad_pepe.png', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Stalin.png', 'AsterixObelix.png', 'NaWalbrzych.avi'}) 
+ Got: (58, {'sad_pepe.png', 'Nosacz.png', 'DziwniCiRzymianie.png', 'Stalin.png', 'AsterixObelix.png', 'NaWalbrzych.avi'}) 
+ 2**n time execution: 0.02, n**2 time execution 0.02 
+ === Test 87 Amount of memes 4 === : 
+ usb_size = 2 memes = [('Hitler.jpg', 97, 4), ('Mussolini.jpg', 112, 15), ('metamorphosis.png', 400, 14), ("It's Over 9000.jpeg", 41, 12)] 
+ Expected: (45, {'Hitler.jpg', "It's Over 9000.jpeg", 'Mussolini.jpg', 'metamorphosis.png'}) 
+ Got: (45, {'Hitler.jpg', "It's Over 9000.jpeg", 'Mussolini.jpg', 'metamorphosis.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.02 
  === Test 88 Amount of memes 10 === : 
- Expected: (63, {'skocznia.png', 'Dog.png', 'AmericaOil.jpg', 'Chernobyl.jpg', 'Stalin.png'}) 
- Got: (63, {'skocznia.png', 'Dog.png', 'AmericaOil.jpg', 'Chernobyl.jpg', 'Stalin.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.12 
- === Test 89 Amount of memes 17 === : 
- Expected: (153, {'Hitler.jpg', 'hanuszka.png', 'Mussolini.jpg', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'Dog.png', 'AndrzejDuda.png', 'LewNieSprzymierzaSieZKojotem.avi', 'pride.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- Got: (153, {'Hitler.jpg', 'hanuszka.png', 'Mussolini.jpg', 'Tesla.png', 'HiszpanskaInkwizycja.png', 'Dog.png', 'AndrzejDuda.png', 'LewNieSprzymierzaSieZKojotem.avi', 'pride.jpg', "It's Over 9000.jpeg", 'Nazi.png'}) 
- 2**n time execution: 1.62, n**2 time execution 0.17 
- === Test 90 Amount of memes 10 === : 
- Expected: (72, {'Hitler.jpg', 'Tesla.png', 'AsterixObelix.png', 'footballMessi.png', 'AndrzejDuda.png', 'Urban.png', 'PolandIntoSpace.jpg'}) 
- Got: (72, {'Hitler.jpg', 'Tesla.png', 'AsterixObelix.png', 'Dog.png', 'footballMessi.png', 'Urban.png', 'PolandIntoSpace.jpg'}) 
- 2**n time execution: 0.0, n**2 time execution 0.05 
- === Test 91 Amount of memes 11 === : 
- Expected: (57, {'Hitler.jpg', 'hanuszka.png', 'FranceWar.png', 'AndrzejDuda.png', 'Urban.png', 'Chernobyl.jpg'}) 
- Got: (57, {'Hitler.jpg', 'hanuszka.png', 'FranceWar.png', 'AndrzejDuda.png', 'Urban.png', 'Chernobyl.jpg'}) 
- 2**n time execution: 0.02, n**2 time execution 0.05 
- === Test 92 Amount of memes 7 === : 
- Expected: (34, {'FranceWar.png', 'JanuszMalpa.png'}) 
- Got: (34, {'FranceWar.png', 'JanuszMalpa.png'}) 
+ usb_size = 0 memes = [('RickMorty.png', 439, 3), ('JanKazimierz.png', 459, 10), ('Mussolini.jpg', 475, 8), ('metamorphosis.png', 447, 18), ('Urban.png', 417, 13), ('AmericaOil.jpg', 167, 11), ('Dog.png', 380, 4), ('sad_frog.jpg', 65, 2), ('PolandIntoSpace.jpg', 407, 0), ('Stalin.png', 71, 16)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 0.01, n**2 time execution 0.01 
+ === Test 89 Amount of memes 12 === : 
+ usb_size = 3 memes = [('Tesla.png', 120, 2), ('DziwniCiRzymianie.png', 406, 3), ('WaznaWiadomosc.avi', 430, 16), ('NaWalbrzych.avi', 485, 2), ('JanuszMalpa.png', 48, 14), ('Mao.png', 255, 2), ('JanKazimierz.png', 2, 9), ('Dog.png', 409, 5), ('sad_frog.jpg', 98, 9), ('Cat.jpg', 284, 16), ('LewNieSprzymierzaSieZKojotem.avi', 212, 5), ('Mussolini.jpg', 355, 13)] 
+ Expected: (94, {'JanKazimierz.png', 'Tesla.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'Cat.jpg', 'sad_frog.jpg', 'JanuszMalpa.png', 'Dog.png', 'NaWalbrzych.avi', 'Mussolini.jpg'}) 
+ Got: (94, {'JanKazimierz.png', 'Tesla.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'DziwniCiRzymianie.png', 'Cat.jpg', 'sad_frog.jpg', 'JanuszMalpa.png', 'Dog.png', 'Mao.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 0.04, n**2 time execution 0.05 
+ === Test 90 Amount of memes 18 === : 
+ usb_size = 2 memes = [('Stalin.png', 220, 12), ('DziwniCiRzymianie.png', 350, 7), ('WaznaWiadomosc.avi', 111, 19), ('AndrzejDuda.png', 357, 0), ('Urban.png', 45, 7), ('sad_frog.jpg', 185, 1), ('Cat.jpg', 62, 20), ('metamorphosis.png', 339, 4), ('hanuszka.png', 98, 2), ('Spongebob.png', 140, 4), ('RickMorty.png', 273, 3), ('Smolensk.png', 95, 20), ('JanKazimierz.png', 94, 2), ('LewNieSprzymierzaSieZKojotem.avi', 224, 5), ('JanuszMalpa.png', 186, 9), ('Dog.png', 426, 18), ('Mussolini.jpg', 342, 8), ('sad_pepe.png', 242, 5)] 
+ Expected: (126, {'JanKazimierz.png', 'Smolensk.png', 'Spongebob.png', 'Urban.png', 'WaznaWiadomosc.avi', 'LewNieSprzymierzaSieZKojotem.avi', 'Cat.jpg', 'Stalin.png', 'JanuszMalpa.png', 'Dog.png', 'hanuszka.png', 'Mussolini.jpg'}) 
+ Got: (126, {'JanKazimierz.png', 'Smolensk.png', 'Spongebob.png', 'WaznaWiadomosc.avi', 'Urban.png', 'LewNieSprzymierzaSieZKojotem.avi', 'Cat.jpg', 'Stalin.png', 'JanuszMalpa.png', 'Dog.png', 'hanuszka.png', 'Mussolini.jpg'}) 
+ 2**n time execution: 4.06, n**2 time execution 0.11 
+ === Test 91 Amount of memes 15 === : 
+ usb_size = 2 memes = [('DziwniCiRzymianie.png', 108, 1), ('Smolensk.png', 473, 15), ('metamorphosis.png', 6, 6), ('Tesla.png', 99, 9), ("It's Over 9000.jpeg", 274, 11), ('JanKazimierz.png', 155, 16), ('PolandIntoSpace.jpg', 149, 16), ('Mao.png', 153, 14), ('footballMessi.png', 73, 11), ('Dog.png', 499, 19), ('AmericaOil.jpg', 354, 20), ('LewNieSprzymierzaSieZKojotem.avi', 343, 1), ('sad_frog.jpg', 489, 12), ('hanuszka.png', 102, 17), ('Chernobyl.jpg', 443, 10)] 
+ Expected: (140, {'JanKazimierz.png', 'PolandIntoSpace.jpg', 'Tesla.png', "It's Over 9000.jpeg", 'metamorphosis.png', 'hanuszka.png', 'DziwniCiRzymianie.png', 'Dog.png', 'Mao.png', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ Got: (140, {'JanKazimierz.png', 'PolandIntoSpace.jpg', 'Tesla.png', 'metamorphosis.png', "It's Over 9000.jpeg", 'hanuszka.png', 'DziwniCiRzymianie.png', 'Dog.png', 'Mao.png', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ 2**n time execution: 0.39, n**2 time execution 0.06 
+ === Test 92 Amount of memes 18 === : 
+ usb_size = 0 memes = [('HiszpanskaInkwizycja.png', 488, 5), ('Nazi.png', 362, 16), ('Tesla.png', 333, 17), ('AsterixObelix.png', 434, 8), ('Spongebob.png', 112, 11), ('WaznaWiadomosc.avi', 243, 4), ('pride.jpg', 377, 3), ('Cat.jpg', 471, 6), ('Mao.png', 382, 8), ('AndrzejDuda.png', 264, 13), ('Hitler.jpg', 238, 10), ('RickMorty.png', 415, 14), ('sad_pepe.png', 348, 11), ('Chernobyl.jpg', 39, 14), ('metamorphosis.png', 70, 16), ('DziwniCiRzymianie.png', 369, 7), ('hanuszka.png', 498, 16), ('LewNieSprzymierzaSieZKojotem.avi', 157, 16)] 
+ Expected: (0, {'TestMeme'}) 
+ Got: (0, set()) 
+ 2**n time execution: 3.94, n**2 time execution 0.01 
+ === Test 93 Amount of memes 10 === : 
+ usb_size = 1 memes = [('AsterixObelix.png', 384, 19), ('Spongebob.png', 306, 6), ('Tesla.png', 321, 3), ('Mao.png', 314, 15), ('footballMessi.png', 84, 14), ('Cat.jpg', 369, 1), ('Chernobyl.jpg', 119, 3), ('metamorphosis.png', 347, 8), ('Dog.png', 315, 20), ('Urban.png', 261, 2)] 
+ Expected: (56, {'Dog.png', 'Chernobyl.jpg', 'footballMessi.png', 'AsterixObelix.png'}) 
+ Got: (56, {'Dog.png', 'Chernobyl.jpg', 'footballMessi.png', 'AsterixObelix.png'}) 
+ 2**n time execution: 0.01, n**2 time execution 0.02 
+ === Test 94 Amount of memes 15 === : 
+ usb_size = 1 memes = [('RickMorty.png', 443, 11), ('WaznaWiadomosc.avi', 85, 2), ('Cat.jpg', 225, 19), ('FranceWar.png', 379, 1), ('AsterixObelix.png', 182, 14), ('AmericaOil.jpg', 184, 7), ('pride.jpg', 191, 11), ('Nazi.png', 204, 18), ('HiszpanskaInkwizycja.png', 305, 10), ('Chernobyl.jpg', 429, 13), ('LewNieSprzymierzaSieZKojotem.avi', 365, 16), ('JanKazimierz.png', 426, 6), ('Smolensk.png', 419, 9), ('Mussolini.jpg', 278, 9), ('Stalin.png', 120, 11)] 
+ Expected: (75, {'Nazi.png', 'WaznaWiadomosc.avi', 'AsterixObelix.png', 'Cat.jpg', 'Stalin.png', 'pride.jpg'}) 
+ Got: (75, {'Nazi.png', 'WaznaWiadomosc.avi', 'AsterixObelix.png', 'Cat.jpg', 'Stalin.png', 'pride.jpg'}) 
+ 2**n time execution: 0.39, n**2 time execution 0.02 
+ === Test 95 Amount of memes 1 === : 
+ usb_size = 1 memes = [('AndrzejDuda.png', 410, 17)] 
+ Expected: (17, {'AndrzejDuda.png'}) 
+ Got: (17, {'AndrzejDuda.png'}) 
+ 2**n time execution: 0.0, n**2 time execution 0.01 
+ === Test 96 Amount of memes 9 === : 
+ usb_size = 3 memes = [('Smolensk.png', 40, 16), ('PolandIntoSpace.jpg', 419, 5), ('AmericaOil.jpg', 399, 6), ('Nosacz.png', 119, 3), ('AsterixObelix.png', 242, 4), ('RickMorty.png', 285, 1), ('DziwniCiRzymianie.png', 81, 18), ('Tesla.png', 403, 13), ('Nazi.png', 253, 3)] 
+ Expected: (69, {'Smolensk.png', 'Nazi.png', 'PolandIntoSpace.jpg', 'Tesla.png', 'Nosacz.png', 'AsterixObelix.png', 'DziwniCiRzymianie.png', 'RickMorty.png', 'AmericaOil.jpg'}) 
+ Got: (69, {'Smolensk.png', 'Nazi.png', 'PolandIntoSpace.jpg', 'Tesla.png', 'Nosacz.png', 'AsterixObelix.png', 'DziwniCiRzymianie.png', 'RickMorty.png', 'AmericaOil.jpg'}) 
  2**n time execution: 0.0, n**2 time execution 0.03 
- === Test 93 Amount of memes 5 === : 
- Expected: (41, {'metamorphosis.png', 'PolandIntoSpace.jpg', 'Nazi.png'}) 
- Got: (41, {'metamorphosis.png', 'PolandIntoSpace.jpg', 'Nazi.png'}) 
+ === Test 97 Amount of memes 10 === : 
+ usb_size = 2 memes = [('FranceWar.png', 57, 0), ('skocznia.png', 433, 4), ('footballMessi.png', 309, 7), ('hanuszka.png', 272, 4), ('Cat.jpg', 292, 6), ('PoczujWSobieSileLwa.png', 190, 17), ('Tesla.png', 498, 15), ("It's Over 9000.jpeg", 395, 12), ('JanuszMalpa.png', 450, 8), ('AndrzejDuda.png', 201, 9)] 
+ Expected: (68, {'Tesla.png', "It's Over 9000.jpeg", 'AndrzejDuda.png', 'JanuszMalpa.png', 'PoczujWSobieSileLwa.png', 'footballMessi.png'}) 
+ Got: (68, {'Tesla.png', "It's Over 9000.jpeg", 'AndrzejDuda.png', 'JanuszMalpa.png', 'PoczujWSobieSileLwa.png', 'footballMessi.png'}) 
+ 2**n time execution: 0.01, n**2 time execution 0.03 
+ === Test 98 Amount of memes 13 === : 
+ usb_size = 3 memes = [('pride.jpg', 180, 7), ('Mussolini.jpg', 373, 7), ('PolandIntoSpace.jpg', 437, 10), ('HiszpanskaInkwizycja.png', 55, 2), ('Urban.png', 340, 14), ('Dog.png', 160, 16), ('WaznaWiadomosc.avi', 423, 12), ('AmericaOil.jpg', 33, 17), ('skocznia.png', 63, 11), ('sad_frog.jpg', 174, 15), ('footballMessi.png', 322, 17), ('Spongebob.png', 413, 12), ('Smolensk.png', 223, 20)] 
+ Expected: (153, {'HiszpanskaInkwizycja.png', 'skocznia.png', 'Smolensk.png', 'PolandIntoSpace.jpg', 'Spongebob.png', 'Urban.png', 'WaznaWiadomosc.avi', 'sad_frog.jpg', 'Dog.png', 'pride.jpg', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ Got: (153, {'HiszpanskaInkwizycja.png', 'skocznia.png', 'Smolensk.png', 'PolandIntoSpace.jpg', 'Spongebob.png', 'WaznaWiadomosc.avi', 'Urban.png', 'sad_frog.jpg', 'Dog.png', 'pride.jpg', 'AmericaOil.jpg', 'footballMessi.png'}) 
+ 2**n time execution: 0.08, n**2 time execution 0.08 
+ === Test 99 Amount of memes 2 === : 
+ usb_size = 1 memes = [('FranceWar.png', 329, 16), ('Cat.jpg', 314, 11)] 
+ Expected: (27, {'Cat.jpg', 'FranceWar.png'}) 
+ Got: (27, {'Cat.jpg', 'FranceWar.png'}) 
  2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 94 Amount of memes 7 === : 
- Expected: (62, {'Urban.png', 'metamorphosis.png', 'sad_frog.jpg', 'JanuszMalpa.png'}) 
- Got: (62, {'Urban.png', 'metamorphosis.png', 'sad_frog.jpg', 'JanuszMalpa.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.12 
- === Test 95 Amount of memes 10 === : 
- Expected: (97, {'FranceWar.png', 'metamorphosis.png', 'Tesla.png', 'Dog.png', 'Urban.png', 'Spongebob.png'}) 
- Got: (97, {'FranceWar.png', 'metamorphosis.png', 'Tesla.png', 'Dog.png', 'Urban.png', 'Spongebob.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.14 
- === Test 96 Amount of memes 17 === : 
- Expected: (119, {'metamorphosis.png', 'sad_pepe.png', 'sad_frog.jpg', 'Tesla.png', 'Nosacz.png', 'Dog.png', 'AndrzejDuda.png', 'Spongebob.png'}) 
- Got: (119, {'metamorphosis.png', 'sad_pepe.png', 'sad_frog.jpg', 'Tesla.png', 'Nosacz.png', 'Dog.png', 'AndrzejDuda.png', 'Spongebob.png'}) 
- 2**n time execution: 1.81, n**2 time execution 0.11 
- === Test 97 Amount of memes 17 === : 
- Expected: (126, {'FranceWar.png', 'WaznaWiadomosc.avi', 'sad_frog.jpg', 'Nosacz.png', 'PoczujWSobieSileLwa.png', 'RickMorty.png', 'JanuszMalpa.png', "It's Over 9000.jpeg"}) 
- Got: (126, {'FranceWar.png', 'WaznaWiadomosc.avi', 'sad_frog.jpg', 'Nosacz.png', 'PoczujWSobieSileLwa.png', 'RickMorty.png', 'JanuszMalpa.png', "It's Over 9000.jpeg"}) 
- 2**n time execution: 1.77, n**2 time execution 0.12 
- === Test 98 Amount of memes 6 === : 
- Expected: (19, {'DziwniCiRzymianie.png'}) 
- Got: (19, {'DziwniCiRzymianie.png'}) 
- 2**n time execution: 0.0, n**2 time execution 0.02 
- === Test 99 Amount of memes 10 === : 
- Expected: (91, {'FranceWar.png', 'Tesla.png', 'Smolensk.png', 'NaWalbrzych.avi', 'JanKazimierz.png', 'pride.jpg'}) 
- Got: (91, {'FranceWar.png', 'Tesla.png', 'Smolensk.png', 'NaWalbrzych.avi', 'JanKazimierz.png', 'pride.jpg'}) 
- 2**n time execution: 0.01, n**2 time execution 0.12 

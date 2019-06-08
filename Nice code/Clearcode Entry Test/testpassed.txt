@@ -7,42 +7,42 @@
  Test 6 passed 
  Test 7 passed 
  Test 8 passed 
- Test 9 passed 
- Test 10 passed 
+ Test 9 passed Same USB Stick Value: 0, but not same names
+ Test 10 passed Same USB Stick Value: 0, but not same names
  Test 11 passed 
- Test 12 passed Same USB Stick Value, but not same names
+ Test 12 passed 
  Test 13 passed 
  Test 14 passed 
  Test 15 passed 
- Test 16 passed 
+ Test 16 passed Same USB Stick Value: 0, but not same names
  Test 17 passed 
  Test 18 passed 
  Test 19 passed 
- Test 20 passed 
+ Test 20 passed Same USB Stick Value: 0, but not same names
  Test 21 passed 
- Test 22 passed 
+ Test 22 passed Same USB Stick Value: 0, but not same names
  Test 23 passed 
  Test 24 passed 
  Test 25 passed 
- Test 26 passed Same USB Stick Value, but not same names
+ Test 26 passed 
  Test 27 passed 
- Test 28 passed 
- Test 29 passed Same USB Stick Value, but not same names
- Test 30 passed Same USB Stick Value, but not same names
- Test 31 passed 
+ Test 28 passed Same USB Stick Value: 0, but not same names
+ Test 29 passed 
+ Test 30 passed 
+ Test 31 passed Same USB Stick Value: 0, but not same names
  Test 32 passed 
  Test 33 passed 
- Test 34 passed 
- Test 35 passed 
+ Test 34 passed Same USB Stick Value: 0, but not same names
+ Test 35 passed Same USB Stick Value: 0, but not same names
  Test 36 passed 
- Test 37 passed 
+ Test 37 passed Same USB Stick Value: 0, but not same names
  Test 38 passed 
- Test 39 passed 
+ Test 39 passed Same USB Stick Value: 110, but not same names
  Test 40 passed 
  Test 41 passed 
  Test 42 passed 
  Test 43 passed 
- Test 44 passed 
+ Test 44 passed Same USB Stick Value: 0, but not same names
  Test 45 passed 
  Test 46 passed 
  Test 47 passed 
@@ -52,45 +52,45 @@
  Test 51 passed 
  Test 52 passed 
  Test 53 passed 
- Test 54 passed 
+ Test 54 passed Same USB Stick Value: 0, but not same names
  Test 55 passed 
  Test 56 passed 
  Test 57 passed 
- Test 58 passed 
+ Test 58 passed Same USB Stick Value: 0, but not same names
  Test 59 passed 
- Test 60 passed Same USB Stick Value, but not same names
- Test 61 passed 
+ Test 60 passed Same USB Stick Value: 0, but not same names
+ Test 61 passed Same USB Stick Value: 0, but not same names
  Test 62 passed 
  Test 63 passed 
- Test 64 passed 
- Test 65 passed Same USB Stick Value, but not same names
- Test 66 passed Same USB Stick Value, but not same names
+ Test 64 passed Same USB Stick Value: 0, but not same names
+ Test 65 passed 
+ Test 66 passed Same USB Stick Value: 104, but not same names
  Test 67 passed 
  Test 68 passed 
  Test 69 passed 
- Test 70 passed Same USB Stick Value, but not same names
+ Test 70 passed 
  Test 71 passed 
  Test 72 passed 
  Test 73 passed 
- Test 74 passed 
+ Test 74 passed Same USB Stick Value: 69, but not same names
  Test 75 passed 
  Test 76 passed 
  Test 77 passed 
  Test 78 passed 
  Test 79 passed 
- Test 80 passed 
- Test 81 passed 
+ Test 80 passed Same USB Stick Value: 124, but not same names
+ Test 81 passed Same USB Stick Value: 0, but not same names
  Test 82 passed 
  Test 83 passed 
  Test 84 passed 
  Test 85 passed 
  Test 86 passed 
- Test 87 passed Same USB Stick Value, but not same names
- Test 88 passed 
- Test 89 passed 
- Test 90 passed Same USB Stick Value, but not same names
+ Test 87 passed 
+ Test 88 passed Same USB Stick Value: 0, but not same names
+ Test 89 passed Same USB Stick Value: 94, but not same names
+ Test 90 passed 
  Test 91 passed 
- Test 92 passed 
+ Test 92 passed Same USB Stick Value: 0, but not same names
  Test 93 passed 
  Test 94 passed 
  Test 95 passed 

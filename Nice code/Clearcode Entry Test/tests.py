@@ -6,8 +6,11 @@ import random
 # CONFIGURATION
 AMOUNT_OF_TESTS = 100
 MAX_MEME_AMOUNT = 20
-MAX_USB_SIZE = 15
-MAX_MEME_SIZE = 4000
+MIN_USB_SIZE = 0
+MAX_USB_SIZE = 3
+MIN_USB_SIZE = 0
+MAX_MEME_SIZE = 500
+MIN_USB_WORTH = 0
 MAX_MEME_WORTH = 20
 # CONFIGURATION END
 
@@ -73,7 +76,7 @@ class TestGenerator:
         #tmp list to remove used names
         for name in self.memeNames:
             tmp_names.append(name)
-        usb_size = random.randint(1,MAX_USB_SIZE) # in GiB, with 0<usb_size constraint
+        usb_size = random.randint(MIN_USB_SIZE,MAX_USB_SIZE) # in GiB, with 0<usb_size constraint
         #assuming that 0<amount_of_memes
         amount_of_memes = random.randint(1,self.amountMemesCap)
 
@@ -85,8 +88,8 @@ class TestGenerator:
             
             memesList.append(
                 (randName,
-                 random.randint(1,MAX_MEME_SIZE),
-                 random.randint(1,MAX_MEME_WORTH))
+                 random.randint(MIN_USB_SIZE,MAX_MEME_SIZE),
+                 random.randint(MIN_USB_WORTH,MAX_MEME_WORTH))
             )
         return Test(usb_size, memesList)
     
@@ -116,12 +119,13 @@ for test in tests:
     if algorithm_answer == test.expected:
         test_passed_file.write(f" Test {test_position} passed \n")
     elif algorithm_answer[0] == test.expected[0]:
-        test_passed_file.write(f" Test {test_position} passed Same USB Stick Value, but not same names\n")
+        test_passed_file.write(f" Test {test_position} passed Same USB Stick Value: {test.expected[0]}, but not same names\n")
     else:
         test_passed_file.write(f" Test {test_position} not passed ======== FLAG ========= \n")
 
 
     test_log.write(f" === Test {test_position} Amount of memes {len(test.memes)} === : \n")
+    test_log.write(f" usb_size = {test.usb_size_GiB} memes = {test.rawMemes} \n")
     test_log.write(f" Expected: {test.expected} \n")
     test_log.write(f" Got: {algorithm_answer} \n")
     test_log.write(f" 2**n time execution: {test.expected_elapsed_time}, n**2 time execution {calculate_elapsed_time} \n")
