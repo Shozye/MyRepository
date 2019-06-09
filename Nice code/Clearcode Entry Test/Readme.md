@@ -40,26 +40,26 @@ memes = [("ScoobyDoo.png", 3, 20), ("Garfield.png", 2, 10,), ("PerryThePlatypus.
 
 Let's start by setting up list with usb_size + 1 Tuples with value of memes and empty set for meme names \
 Tuple at position n represents usb stick filled by n MiB
-<img src="Clearcode%20Entry%20Test/images/setup.png"/><br/><br/>
+<img src="images/setup.png"/><br/><br/>
 We pick the first meme on list, It's size = 3 \
 We start from the last tuple and check if it is reachable - it it's position is equal to 0 or it's value is more than 0, then it is reachable \
 Then we check if Position of this tuple + Size of meme <= usb_size \
 In the end we check if it is worth to change the tuple with position bigger by size 
-<img src="Clearcode%20Entry%20Test/images/ScoobyDoo.png"/> <br/><br/>
+<img src="images/ScoobyDoo.png"/> <br/><br/>
 Now we pick Garfield, It's size is 2 \
 Following the previous rules, starting from end of list, we do the same
-<img src="Clearcode%20Entry%20Test/images/Garfield.png"/> <br/><br/>
+<img src="images/Garfield.png"/> <br/><br/>
 Now we pick Perry, it's size is 1 \
 Position 5 is reachable, But 5 + Perry's size > usb_size, so we can't add value to anything\
-<img src="Clearcode%20Entry%20Test/images/Perry.png"/><br/><br/>
+<img src="images/Perry.png"/><br/><br/>
 <p> Next reachable position is position 3, so we add value of Perry and Scooby Doo to position 4 and add their names to set </p>
-<img src="Clearcode%20Entry%20Test/images/Perry1.png"/>
+<img src="images/Perry1.png"/>
 <p> Next reachable position is position 2, so we overwrite position 3, by Garfield and Perry </p>
-<img src="Clearcode%20Entry%20Test/images/Perry2.png"/>
+<img src="images/Perry2.png"/>
 <p> Then we update tuple at position 1 </p>
-<img src="Clearcode%20Entry%20Test/images/Perry3.png"/>
+<img src="images/Perry3.png"/>
 <p> In the end, we find maximum value in this list </p>
-<img src="Clearcode%20Entry%20Test/images/Find%20Best%20Worth.png"/ ><br/><br/>
+<img src="images/Find%20Best%20Worth.png"/ ><br/><br/>
 
 In calculate function, we also start from setup
 
