@@ -42,7 +42,7 @@ Let's start by setting up list with usb_size + 1 Tuples with value of memes and 
 Tuple at position n represents usb stick filled by n MiB
 <img src="images/setup.png"/><br/><br/>
 We pick the first meme on list, It's size = 3 \
-We start from the last tuple and check if it is reachable - it it's position is equal to 0 or it's value is more than 0, then it is reachable \
+We start from the last tuple and check if it is reachable - if it's position is equal to 0 or it's value is more than 0, then it is reachable \
 Then we check if Position of this tuple + Size of meme <= usb_size \
 In the end we check if it is worth to change the tuple with position bigger by size 
 <img src="images/ScoobyDoo.png"/> <br/><br/>
