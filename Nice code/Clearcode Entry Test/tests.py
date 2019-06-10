@@ -48,7 +48,7 @@ class Test:
             subsetList = [Subset(j) for j in combinations(self.memes, amount_of_elements)]
             #takes EVERY subset of self.memes and checks it's worth.
             for subset in subsetList:
-                if (subset.size < self.usb_size) and (subset.worth > best_subset.worth):
+                if (subset.size <= self.usb_size) and (subset.worth > best_subset.worth):
                     best_subset = subset
         #return subset with highest worth
         self.expected = best_subset.answer
