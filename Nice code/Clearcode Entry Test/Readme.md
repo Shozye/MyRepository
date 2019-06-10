@@ -30,6 +30,8 @@ testpassed.txt - File, that creates after running tests.py. You can check there 
 
 testlog.txt - File, that creates after running tests.py. You can check info about every test. What was expected output of this test, what was returned from calculate function, and others.
 
+handtests.py - Python file with hand tests to calculate
+
 /images - Folder with images to this readme.
 
 ## Calculate Algorithm <a name = "algorithm"></a>
@@ -41,24 +43,36 @@ memes = [("ScoobyDoo.png", 3, 20), ("Garfield.png", 2, 10,), ("PerryThePlatypus.
 Let's start by setting up list with usb_size + 1 Tuples with value of memes and empty set for meme names \
 Tuple at position n represents usb stick filled by n MiB
 <img src="images/setup.png"/><br/><br/>
-We pick the first meme on list, It's size = 3 \
-We start from the last tuple and check if it is reachable - if it's position is equal to 0 or it's value is more than 0, then it is reachable \
-Then we check if Position of this tuple + Size of meme <= usb_size \
-In the end we check if it is worth to change the tuple with position bigger by size 
+Our objective is to fill every tuple with best memes, that tuple at position n will be filled by n MiB \
+If this tuple at position n will have value = 0 and it won't be tuple at position 0 - It will mean that there is no possibility to fill usb stick with memes which size sums to n \
+We will do this by using following algorithm: 
+- Pick next meme on the list
+- Search List of tuples backwards whether tuple meets these 3 logical statements: 
+> - Tuple's value is greater than 0 or Tuple's position equals 0
+> - Tuple's position + meme_size <= usb_size
+> - Tuple at position greater by meme_size has value lower than (Value of Tuple we are searching for + meme_worth)
+- If Tuple meets those 3 statements, then we update tuple greater by meme size 
+> - Updating is saying that, if we get all memes in tuple we are looking at, and then we add meme we have picked to them, this subset will be better than subset that is in tuple at position greater by meme size 
+<a/>
+So we pick first meme on list: It's Scooby Doo, with size 3 and worth 20 <br/>
+We loop through the whole list from backwards to understand that only Tuple at position 1 meets those 3 logical statements and then we update tuple at position 3, because 0 + 3 = 3.
 <img src="images/ScoobyDoo.png"/> <br/><br/>
-Now we pick Garfield, It's size is 2 \
-Following the previous rules, starting from end of list, we do the same
+Now we pick Garfield, which size = 2 and worth = 10\
+Following the previous rules, By looping through the list backwards, we get to know that Tuple at position 3 meets those 3 logical statements, so we update tuple at position 3 + 2.\
+And also Tuple at position 0 meets these 3 logical statements, so we update tuple at position 0 + 2. \
 <img src="images/Garfield.png"/> <br/><br/>
-Now we pick Perry, it's size is 1 \
-Position 5 is reachable, But 5 + Perry's size > usb_size, so we can't add value to anything\
+Now we will take it slow,\
+We pick Perry The Platypus, which size is 1 and worth is 15.\
+By looping through the whole list backwards, we see that Tuple at position 5 doesn't meet statement, that \
+Tuple's position + meme size > usb_size
 <img src="images/Perry.png"/><br/><br/>
-<p> Next reachable position is position 3, so we add value of Perry and Scooby Doo to position 4 and add their names to set </p>
+Then we get to know that tuple at position 3 meets the statements, so we update tuple at position 4.
 <img src="images/Perry1.png"/>
-<p> Next reachable position is position 2, so we overwrite position 3, by Garfield and Perry </p>
+Then we get to know that tuple at position 2 meets the statements, so we update tuple at position 3.
 <img src="images/Perry2.png"/>
-<p> Then we update tuple at position 1 </p>
+Tuple at position 0 also meets the statements, so we update tuple at position 1.
 <img src="images/Perry3.png"/>
-<p> In the end, we find maximum value in this list </p>
+In the end, we find maximum value in this list 
 <img src="images/Find%20Best%20Worth.png"/ ><br/><br/>
 
 In calculate function, we also start from setup
