@@ -4,8 +4,8 @@ import time
 import random
 
 # CONFIGURATION
-AMOUNT_OF_TESTS = 500
-MAX_MEME_AMOUNT = 23
+AMOUNT_OF_TESTS = 3000
+MAX_MEME_AMOUNT = 15
 MIN_USB_SIZE = 0
 MAX_USB_SIZE = 20 #in GiB
 MIN_USB_SIZE = 0
@@ -111,6 +111,9 @@ for i in range(AMOUNT_OF_TESTS):
 test_passed_file = open("testpassed.txt", "w+")
 test_log = open("testlog.txt", "w+")
 test_position = 0
+passed = 0
+not_passed = 0
+passed_but_problem = 0
 for test in tests:
     start_time = time.time()
     algorithm_answer = calculate(test.usb_size_GiB, test.rawMemes)
@@ -118,10 +121,13 @@ for test in tests:
 
     if algorithm_answer == test.expected:
         test_passed_file.write(f" Test {test_position} passed \n")
+        passed += 1
     elif algorithm_answer[0] == test.expected[0]:
         test_passed_file.write(f" Test {test_position} passed Same USB Stick Value: {test.expected[0]}, but not same names\n")
+        passed_but_problem += 1
     else:
         test_passed_file.write(f" Test {test_position} not passed ======== FLAG ========= \n")
+        not_passed +=1
 
 
     test_log.write(f" === Test {test_position} Amount of memes {len(test.memes)} === : \n")
@@ -130,6 +136,7 @@ for test in tests:
     test_log.write(f" Got: {algorithm_answer} \n")
     test_log.write(f" 2**n time execution: {test.expected_elapsed_time}, n**2 time execution {calculate_elapsed_time} \n")
     test_position += 1
+test_passed_file.write(f" Passed : {passed},\nPassed but problems: {passed_but_problem},\n Not passed: {not_passed}")
     
     
 test_passed_file.close()
