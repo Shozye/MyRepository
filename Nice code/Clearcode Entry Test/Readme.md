@@ -56,14 +56,14 @@ We will do this by using following algorithm:
 <a/>
 So we pick first meme on list: It's Scooby Doo, with size 3 and worth 20 <br/>
 We loop through the whole list from backwards to understand that only Tuple at position 1 meets those 3 logical statements and then we update tuple at position 3, because 0 + 3 = 3.
-<img src="images/ScoobyDoo.png"/> <br/><br/>
-Now we pick Garfield, which size = 2 and worth = 10\
-Following the previous rules, By looping through the list backwards, we get to know that Tuple at position 3 meets those 3 logical statements, so we update tuple at position 3 + 2.\
-And also Tuple at position 0 meets these 3 logical statements, so we update tuple at position 0 + 2. \
-<img src="images/Garfield.png"/> <br/><br/>
-Now we will take it slow,\
-We pick Perry The Platypus, which size is 1 and worth is 15.\
-By looping through the whole list backwards, we see that Tuple at position 5 doesn't meet statement, that \
+<img src="images/ScoobyDoo.png"/>
+Now we pick Garfield, which size = 2 and worth = 10
+Following the previous rules, By looping through the list backwards, we get to know that Tuple at position 3 meets those 3 logical  statements, so we update tuple at position 3 + 2.  
+And also Tuple at position 0 meets these 3 logical statements, so we update tuple at position 0 + 2. 
+<img src="images/Garfield.png"/> <br>
+Now we will take it slow,  <br>
+We pick Perry The Platypus, which size is 1 and worth is 15.  <br>
+By looping through the whole list backwards, we see that Tuple at position 5 doesn't meet statement, that 
 Tuple's position + meme size > usb_size
 <img src="images/Perry.png"/><br/><br/>
 Then we get to know that tuple at position 3 meets the statements, so we update tuple at position 4.
