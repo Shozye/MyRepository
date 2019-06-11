@@ -43,7 +43,7 @@ memes = [("ScoobyDoo.png", 3, 20), ("Garfield.png", 2, 10,), ("PerryThePlatypus.
 Let's start by setting up list with usb_size + 1 Tuples with value of memes and empty set for meme names \
 Tuple at position n represents usb stick filled by n MiB
 <img src="images/setup.png"/><br/><br/>
-Our objective is to fill every tuple with best memes, that tuple at position n will be filled by n MiB \
+Our objective is to fill every tuple with memes, that tuple at position n will be filled by n MiB, and tuple will have highest possible value\
 If this tuple at position n will have value = 0 and it won't be tuple at position 0 - It will mean that there is no possibility to fill usb stick with memes which size sums to n \
 We will do this by using following algorithm: 
 - Pick next meme on the list
