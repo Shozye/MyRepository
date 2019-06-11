@@ -1,1 +1,3 @@
-itertools - in standard Python library
+To main.py nothing
+To tests.py:
+Just standard library, time, random, itertools
