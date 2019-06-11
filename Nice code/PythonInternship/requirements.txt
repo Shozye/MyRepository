@@ -1,3 +1,0 @@
-To main.py nothing
-To tests.py:
-Just standard library, time, random, itertools
